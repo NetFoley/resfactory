@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="GameRes" load_steps=6 format=3 uid="uid://dty4l1cre60hi"]
+
+[ext_resource type="Script" path="res://GameRes/GameRes.gd" id="1_lrupv"]
+[ext_resource type="Resource" uid="uid://bdg312d3sr7mw" path="res://GameRes/Resources/MoveInside.tres" id="2_bln61"]
+[ext_resource type="Resource" uid="uid://dl8lvs0fbjtbd" path="res://GameRes/Resources/Anything.tres" id="2_ntx8e"]
+[ext_resource type="Script" path="res://GameRes/Transformation.gd" id="3_02gla"]
+
+[sub_resource type="Resource" id="Resource_x72bk"]
+script = ExtResource("3_02gla")
+input_res = ExtResource("2_ntx8e")
+output_res = ExtResource("2_bln61")
+energy_needed = 1.0
+ratio = 1.0
+duration = 3.0
+
+[resource]
+script = ExtResource("1_lrupv")
+max_quantity = 10
+quantity = 1
+game_res_name = "Move inside"
+components = Array[ExtResource("1_lrupv")]([])
+tooltip = ""
+transformations = Array[ExtResource("3_02gla")]([SubResource("Resource_x72bk")])

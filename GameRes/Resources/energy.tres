@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="GameRes" load_steps=3 format=3 uid="uid://d0pwhs0va0oct"]
+
+[ext_resource type="Texture2D" uid="uid://dh47g522lc6ho" path="res://assets/resources_basic26.png" id="1_faelx"]
+[ext_resource type="Script" path="res://GameRes/GameRes.gd" id="2_815kb"]
+
+[resource]
+script = ExtResource("2_815kb")
+max_quantity = 10000
+quantity = 10000
+game_res_name = "Energy"
+icon_text = ExtResource("1_faelx")
+components = Array[ExtResource("2_815kb")]([])
+tooltip = "Energy a mettre dans une machine"
+transformations = Array[Resource("res://GameRes/Transformation.gd")]([])

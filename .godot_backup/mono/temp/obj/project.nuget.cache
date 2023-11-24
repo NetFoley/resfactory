@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Oqu1Uxxt4W1Bmc0NjnX88gmaRiBC2O0N2yhPDJYW1bFbTI50r0OkRa34ROghjt8HMteJPHG3ZZLpXu6Sp7rdrw==",
+  "success": true,
+  "projectFilePath": "C:\\GODOT\\RESFACTORY\\ResFactory.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\netfo\\.nuget\\packages\\godot.sourcegenerators\\4.1.2\\godot.sourcegenerators.4.1.2.nupkg.sha512",
+    "C:\\Users\\netfo\\.nuget\\packages\\godotsharp\\4.1.2\\godotsharp.4.1.2.nupkg.sha512",
+    "C:\\Users\\netfo\\.nuget\\packages\\godotsharpeditor\\4.1.2\\godotsharpeditor.4.1.2.nupkg.sha512",
+    "C:\\Users\\netfo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\netfo\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\netfo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

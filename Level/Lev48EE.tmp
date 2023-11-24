@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=3 uid="uid://yrqll733cpiy"]
+
+[ext_resource type="Script" path="res://Level/UI.gd" id="1_j37cf"]
+[ext_resource type="PackedScene" uid="uid://bmp7tet8rv5bl" path="res://GameRes/ComponentControl.tscn" id="2_eb104"]
+[ext_resource type="Script" path="res://GameRes/GameRes.gd" id="3_4df6u"]
+
+[sub_resource type="Resource" id="Resource_rlu1g"]
+script = ExtResource("3_4df6u")
+quantity = 122.054
+max_quantity = 200.0
+game_res_name = "aaaaaaaaaaa"
+components = Array[ExtResource("3_4df6u")]([])
+
+[sub_resource type="Resource" id="Resource_ob1ad"]
+script = ExtResource("3_4df6u")
+quantity = 30.0
+max_quantity = 30.0
+game_res_name = "aeeeeeeee"
+components = Array[ExtResource("3_4df6u")]([])
+
+[node name="Level" type="Node2D"]
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 800.0
+offset_bottom = 450.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_j37cf")
+
+[node name="ComponentControl2" parent="UI" instance=ExtResource("2_eb104")]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 190.0
+offset_right = 310.0
+offset_bottom = 285.0
+game_res = SubResource("Resource_rlu1g")
+
+[node name="ComponentControl" parent="UI" instance=ExtResource("2_eb104")]
+layout_mode = 0
+offset_left = 155.0
+offset_top = 46.0
+offset_right = 423.0
+offset_bottom = 141.0
+game_res = SubResource("Resource_ob1ad")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(333, 175)

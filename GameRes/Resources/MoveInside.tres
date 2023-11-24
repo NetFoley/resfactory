@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="GameRes" load_steps=2 format=3 uid="uid://bdg312d3sr7mw"]
+
+[ext_resource type="Script" path="res://GameRes/GameRes.gd" id="1_rj5qc"]
+
+[resource]
+script = ExtResource("1_rj5qc")
+max_quantity = 10
+quantity = 1
+game_res_name = "MoveInside"
+components = Array[ExtResource("1_rj5qc")]([])
+tooltip = ""
+transformations = Array[Resource("res://GameRes/Transformation.gd")]([])

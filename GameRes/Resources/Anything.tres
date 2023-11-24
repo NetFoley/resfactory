@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="GameRes" load_steps=2 format=3 uid="uid://dl8lvs0fbjtbd"]
+
+[ext_resource type="Script" path="res://GameRes/GameRes.gd" id="1_1nafd"]
+
+[resource]
+script = ExtResource("1_1nafd")
+max_quantity = 10
+quantity = 1
+game_res_name = "Anything"
+components = Array[ExtResource("1_1nafd")]([])
+tooltip = "The representation of any resource"
+transformations = Array[Resource("res://GameRes/Transformation.gd")]([])

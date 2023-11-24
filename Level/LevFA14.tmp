@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://yrqll733cpiy"]
+
+[ext_resource type="Script" path="res://Level/UI.gd" id="1_j37cf"]
+[ext_resource type="PackedScene" uid="uid://dcupl2a8b3wcg" path="res://baseunit/baseunit.tscn" id="1_lmsod"]
+
+[node name="Level" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="UI" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_j37cf")
+
+[node name="BaseUnit" parent="CanvasLayer/UI" instance=ExtResource("1_lmsod")]
+layout_mode = 1
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(333, 175)

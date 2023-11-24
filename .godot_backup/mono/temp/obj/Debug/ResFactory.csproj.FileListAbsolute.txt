@@ -1,0 +1,17 @@
+C:\GODOT\RESFACTORY\.godot\mono\temp\bin\Debug\ResFactory.deps.json
+C:\GODOT\RESFACTORY\.godot\mono\temp\bin\Debug\ResFactory.runtimeconfig.json
+C:\GODOT\RESFACTORY\.godot\mono\temp\bin\Debug\ResFactory.dll
+C:\GODOT\RESFACTORY\.godot\mono\temp\bin\Debug\ResFactory.pdb
+C:\GODOT\RESFACTORY\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\GODOT\RESFACTORY\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\GODOT\RESFACTORY\.godot\mono\temp\obj\Debug\ResFactory.csproj.AssemblyReference.cache
+C:\GODOT\RESFACTORY\.godot\mono\temp\obj\Debug\ResFactory.GeneratedMSBuildEditorConfig.editorconfig
+C:\GODOT\RESFACTORY\.godot\mono\temp\obj\Debug\ResFactory.AssemblyInfoInputs.cache
+C:\GODOT\RESFACTORY\.godot\mono\temp\obj\Debug\ResFactory.AssemblyInfo.cs
+C:\GODOT\RESFACTORY\.godot\mono\temp\obj\Debug\ResFactory.csproj.CoreCompileInputs.cache
+C:\GODOT\RESFACTORY\.godot\mono\temp\obj\Debug\ResFactory.csproj.CopyComplete
+C:\GODOT\RESFACTORY\.godot\mono\temp\obj\Debug\ResFactory.dll
+C:\GODOT\RESFACTORY\.godot\mono\temp\obj\Debug\refint\ResFactory.dll
+C:\GODOT\RESFACTORY\.godot\mono\temp\obj\Debug\ResFactory.pdb
+C:\GODOT\RESFACTORY\.godot\mono\temp\obj\Debug\ResFactory.genruntimeconfig.cache
+C:\GODOT\RESFACTORY\.godot\mono\temp\obj\Debug\ref\ResFactory.dll

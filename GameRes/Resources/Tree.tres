@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="GameRes" load_steps=6 format=3 uid="uid://c0fhlor8bwwls"]
+
+[ext_resource type="Texture2D" uid="uid://drm5r00ru7l3x" path="res://assets/resources_basic3.png" id="1_mjb0v"]
+[ext_resource type="Script" path="res://GameRes/GameRes.gd" id="1_wxmqi"]
+[ext_resource type="Resource" uid="uid://b6kjv3xkidalw" path="res://GameRes/Resources/Wood.tres" id="3_r8h60"]
+[ext_resource type="Script" path="res://GameRes/Transformation.gd" id="4_jh83l"]
+
+[sub_resource type="Resource" id="Resource_mg8kw"]
+script = ExtResource("4_jh83l")
+output_res = ExtResource("3_r8h60")
+energy_needed = 0.0
+ratio = 1.0
+duration = 1.52
+
+[resource]
+script = ExtResource("1_wxmqi")
+max_quantity = 10
+quantity = 1
+game_res_name = "Tree"
+icon_text = ExtResource("1_mjb0v")
+components = Array[ExtResource("1_wxmqi")]([])
+tooltip = "Makes wood"
+transformations = Array[ExtResource("4_jh83l")]([SubResource("Resource_mg8kw")])

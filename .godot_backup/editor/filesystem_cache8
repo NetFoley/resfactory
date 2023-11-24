@@ -1,0 +1,513 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1700688298
+icon.svg::CompressedTexture2D::6599524802476350169::1700018113::1700018127::1::::<><>::
+::res://addons/::1700609290
+::res://assets/::1700350068
+Fire_icon.png::CompressedTexture2D::2278010500708013424::1700350064::1700350068::1::::<><>::
+resources_basic1.png::CompressedTexture2D::2600785989489242054::1700175478::1700175484::1::::<><>::
+resources_basic2.png::CompressedTexture2D::6615978159544037487::1700175478::1700175485::1::::<><>::
+resources_basic3.png::CompressedTexture2D::8379098146758212507::1700175478::1700175485::1::::<><>::
+resources_basic4.png::CompressedTexture2D::1707658740194021261::1700175478::1700175485::1::::<><>::
+resources_basic5.png::CompressedTexture2D::5701197968844114134::1700175478::1700175484::1::::<><>::
+resources_basic6.png::CompressedTexture2D::2932142134695484055::1700175478::1700175484::1::::<><>::
+resources_basic7.png::CompressedTexture2D::405223629537529555::1700175478::1700175484::1::::<><>::
+resources_basic8.png::CompressedTexture2D::4337152127900456015::1700175478::1700175484::1::::<><>::
+resources_basic9.png::CompressedTexture2D::867516247156733158::1700175478::1700175484::1::::<><>::
+resources_basic10.png::CompressedTexture2D::5512202548073609616::1700175478::1700175484::1::::<><>::
+resources_basic12.png::CompressedTexture2D::6042733528490405734::1700175478::1700175484::1::::<><>::
+resources_basic13.png::CompressedTexture2D::1119617663532750238::1700175478::1700175484::1::::<><>::
+resources_basic14.png::CompressedTexture2D::3996213820139517740::1700175478::1700175484::1::::<><>::
+resources_basic15.png::CompressedTexture2D::1331906256108160680::1700175478::1700175484::1::::<><>::
+resources_basic16.png::CompressedTexture2D::4120745924454754064::1700175478::1700175484::1::::<><>::
+resources_basic17.png::CompressedTexture2D::4588220870556100678::1700175478::1700175485::1::::<><>::
+resources_basic18.png::CompressedTexture2D::2872849554819606929::1700175478::1700175485::1::::<><>::
+resources_basic19.png::CompressedTexture2D::3719670852948610104::1700175478::1700175485::1::::<><>::
+resources_basic20.png::CompressedTexture2D::255186735062088258::1700175478::1700175485::1::::<><>::
+resources_basic23.png::CompressedTexture2D::6798613212872907745::1700175478::1700175485::1::::<><>::
+resources_basic24.png::CompressedTexture2D::2166730158106677498::1700175478::1700175485::1::::<><>::
+resources_basic25.png::CompressedTexture2D::8929357246784115039::1700175478::1700175485::1::::<><>::
+resources_basic26.png::CompressedTexture2D::7712406188597013976::1700175478::1700175485::1::::<><>::
+resources_basic27.png::CompressedTexture2D::6539580825919119911::1700175478::1700175485::1::::<><>::
+resources_basic28.png::CompressedTexture2D::7401779379881846681::1700175478::1700175485::1::::<><>::
+resources_basic29.png::CompressedTexture2D::5497556692699027404::1700175478::1700175485::1::::<><>::
+resources_basic30.png::CompressedTexture2D::1797524797209861976::1700175478::1700175485::1::::<><>::
+resources_basic31.png::CompressedTexture2D::3845797340260150232::1700175478::1700175485::1::::<><>::
+resources_basic34.png::CompressedTexture2D::6119873991202486096::1700175478::1700175485::1::::<><>::
+resources_basic35.png::CompressedTexture2D::8986114398070385008::1700175478::1700175485::1::::<><>::
+resources_basic36.png::CompressedTexture2D::6051880598495262480::1700175478::1700175485::1::::<><>::
+resources_basic37.png::CompressedTexture2D::4760413317131452688::1700175478::1700175485::1::::<><>::
+resources_basic38.png::CompressedTexture2D::2148938188617535797::1700175478::1700175485::1::::<><>::
+resources_basic39.png::CompressedTexture2D::7424589096560016331::1700175478::1700175485::1::::<><>::
+resources_basic40.png::CompressedTexture2D::5123589781460889316::1700175478::1700175485::1::::<><>::
+resources_basic41.png::CompressedTexture2D::1523402484875861491::1700175478::1700175485::1::::<><>::
+resources_basic42.png::CompressedTexture2D::1758094820618082358::1700175478::1700175485::1::::<><>::
+resources_basic43.png::CompressedTexture2D::7058009358582872861::1700175478::1700175484::1::::<><>::
+resources_basic44.png::CompressedTexture2D::2845780309357561190::1700175478::1700175484::1::::<><>::
+resources_basic45.png::CompressedTexture2D::2904812381680535702::1700175478::1700175484::1::::<><>::
+resources_basic46.png::CompressedTexture2D::1880145392491908007::1700175478::1700175484::1::::<><>::
+resources_basic47.png::CompressedTexture2D::2065793988799136365::1700175478::1700175484::1::::<><>::
+resources_basic48.png::CompressedTexture2D::2052286869863192532::1700175478::1700175484::1::::<><>::
+resources_basic49.png::CompressedTexture2D::4233484353262246976::1700175478::1700175484::1::::<><>::
+resources_basic50.png::CompressedTexture2D::7955347965532235091::1700175478::1700175484::1::::<><>::
+resources_basic51.png::CompressedTexture2D::3076172946343509656::1700175478::1700175484::1::::<><>::
+resources_basic52.png::CompressedTexture2D::4666854938829238250::1700175478::1700175484::1::::<><>::
+resources_basic53.png::CompressedTexture2D::7613760396249109620::1700175478::1700175484::1::::<><>::
+resources_basic54.png::CompressedTexture2D::8615174232265996191::1700175478::1700175484::1::::<><>::
+resources_basic56.png::CompressedTexture2D::3688265897707641369::1700175478::1700175484::1::::<><>::
+resources_basic57.png::CompressedTexture2D::5608665384231771631::1700175478::1700175484::1::::<><>::
+resources_basic58.png::CompressedTexture2D::4002708249652135935::1700175478::1700175484::1::::<><>::
+resources_basic59.png::CompressedTexture2D::2797670556865915748::1700175478::1700175484::1::::<><>::
+resources_basic60.png::CompressedTexture2D::7146407606496747630::1700175478::1700175484::1::::<><>::
+resources_basic61.png::CompressedTexture2D::5517260704720267394::1700175478::1700175484::1::::<><>::
+resources_basic62.png::CompressedTexture2D::1125837658018480928::1700175478::1700175484::1::::<><>::
+resources_basic63.png::CompressedTexture2D::1983615523527321943::1700175478::1700175484::1::::<><>::
+resources_basic64.png::CompressedTexture2D::3168702420171710545::1700175478::1700175484::1::::<><>::
+resources_basic65.png::CompressedTexture2D::3137983270823817829::1700175478::1700175484::1::::<><>::
+resources_basic66.png::CompressedTexture2D::5633451593651765302::1700175478::1700175484::1::::<><>::
+resources_basic67.png::CompressedTexture2D::6788852966599714518::1700175478::1700175484::1::::<><>::
+resources_basic68.png::CompressedTexture2D::6128125223454261679::1700175478::1700175484::1::::<><>::
+resources_basic69.png::CompressedTexture2D::1306986109827946802::1700175478::1700175484::1::::<><>::
+resources_basic70.png::CompressedTexture2D::6275819447096340222::1700175478::1700175484::1::::<><>::
+resources_basic71.png::CompressedTexture2D::37369795647195558::1700175478::1700175484::1::::<><>::
+resources_basic72.png::CompressedTexture2D::1209979353370453725::1700175478::1700175484::1::::<><>::
+resources_basic73.png::CompressedTexture2D::4164308653738173382::1700175478::1700175484::1::::<><>::
+resources_basic74.png::CompressedTexture2D::7814455357047278307::1700175478::1700175484::1::::<><>::
+resources_basic75.png::CompressedTexture2D::8829550264704160624::1700175478::1700175484::1::::<><>::
+resources_basic76.png::CompressedTexture2D::6775745875531609096::1700175478::1700175484::1::::<><>::
+resources_basic77.png::CompressedTexture2D::568675756943701262::1700175478::1700175484::1::::<><>::
+resources_basic78.png::CompressedTexture2D::3343564070360330429::1700175478::1700175484::1::::<><>::
+resources_basic79.png::CompressedTexture2D::9053636263067241083::1700175478::1700175484::1::::<><>::
+resources_basic80.png::CompressedTexture2D::2548461089826662516::1700175478::1700175484::1::::<><>::
+resources_basic81.png::CompressedTexture2D::1124718196026880947::1700175478::1700175484::1::::<><>::
+resources_basic82.png::CompressedTexture2D::4840788450527875839::1700175478::1700175484::1::::<><>::
+resources_basic83.png::CompressedTexture2D::2503440478878874785::1700175478::1700175484::1::::<><>::
+resources_basic84.png::CompressedTexture2D::3754712404110483117::1700175478::1700175484::1::::<><>::
+resources_basic89.png::CompressedTexture2D::3003597610264444101::1700175478::1700175484::1::::<><>::
+resources_basic90.png::CompressedTexture2D::1164749308926360337::1700175478::1700175484::1::::<><>::
+resources_basic91.png::CompressedTexture2D::6680020882831608479::1700175478::1700175484::1::::<><>::
+resources_basic92.png::CompressedTexture2D::2840674051635632530::1700175478::1700175484::1::::<><>::
+resources_basic93.png::CompressedTexture2D::1787577365535053138::1700175478::1700175484::1::::<><>::
+resources_basic94.png::CompressedTexture2D::7370999561732723159::1700175478::1700175484::1::::<><>::
+resources_basic95.png::CompressedTexture2D::3419294596749688246::1700175478::1700175484::1::::<><>::
+resources_basic96.png::CompressedTexture2D::2521473402254743351::1700175478::1700175484::1::::<><>::
+resources_basic97.png::CompressedTexture2D::3155842571156440507::1700175478::1700175484::1::::<><>::
+resources_basic98.png::CompressedTexture2D::5195681076974640966::1700175478::1700175484::1::::<><>::
+resources_basic99.png::CompressedTexture2D::6229639294043091839::1700175478::1700175484::1::::<><>::
+resources_basic100.png::CompressedTexture2D::4825070527896951960::1700175478::1700175484::1::::<><>::
+resources_basic101.png::CompressedTexture2D::935431379207498873::1700175478::1700175484::1::::<><>::
+resources_basic102.png::CompressedTexture2D::3848378240325630547::1700175478::1700175484::1::::<><>::
+resources_basic103.png::CompressedTexture2D::8751683899926744206::1700175478::1700175484::1::::<><>::
+resources_basic104.png::CompressedTexture2D::8930828864960257526::1700175478::1700175484::1::::<><>::
+resources_basic105.png::CompressedTexture2D::4081851550285989373::1700175478::1700175484::1::::<><>::
+resources_basic106.png::CompressedTexture2D::7400708413514023830::1700175478::1700175484::1::::<><>::
+resources_basic111.png::CompressedTexture2D::386107204906784254::1700175478::1700175484::1::::<><>::
+resources_basic112.png::CompressedTexture2D::7362070441769997428::1700175478::1700175484::1::::<><>::
+resources_basic113.png::CompressedTexture2D::419726430406559605::1700175478::1700175484::1::::<><>::
+resources_basic114.png::CompressedTexture2D::4648737181000319546::1700175478::1700175484::1::::<><>::
+resources_basic115.png::CompressedTexture2D::1029481936439879761::1700175478::1700175484::1::::<><>::
+resources_basic116.png::CompressedTexture2D::5741750705312463533::1700175478::1700175484::1::::<><>::
+resources_basic117.png::CompressedTexture2D::685692541134045401::1700175478::1700175484::1::::<><>::
+resources_basic118.png::CompressedTexture2D::7040072275757867172::1700175478::1700175484::1::::<><>::
+resources_basic119.png::CompressedTexture2D::4936058731991821941::1700175478::1700175484::1::::<><>::
+resources_basic120.png::CompressedTexture2D::1446193177217519633::1700175478::1700175484::1::::<><>::
+resources_basic121.png::CompressedTexture2D::8900860454935826711::1700175478::1700175484::1::::<><>::
+resources_basic.png::CompressedTexture2D::2848245666057253940::1700018600::1700018680::1::::<><>::
+Sheet.png::CompressedTexture2D::6476527186414120472::1700018600::1700018602::1::::<><>::
+spritesheet_16x16.png::CompressedTexture2D::3981137089287212421::1700018593::1700018596::1::::<><>::
+::res://assets/assets toen tileset/::1700018586
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.0.png::CompressedTexture2D::4402179150150890264::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.1.png::CompressedTexture2D::3073143564232544029::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.2.png::CompressedTexture2D::4368235599288541843::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.3.png::CompressedTexture2D::5580857023177068645::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.4.png::CompressedTexture2D::3668596911175190178::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.5.png::CompressedTexture2D::4193068219648399512::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.6.png::CompressedTexture2D::7401277983510253467::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.7.png::CompressedTexture2D::5619941729297094451::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.8.png::CompressedTexture2D::6936782570038309469::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.9.png::CompressedTexture2D::6633998385559164957::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.10.png::CompressedTexture2D::5240961803490143292::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.11.png::CompressedTexture2D::4960789097268706134::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.12.png::CompressedTexture2D::2938482840784751398::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.13.png::CompressedTexture2D::7824249408151789621::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.14.png::CompressedTexture2D::7954436447346073918::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.15.png::CompressedTexture2D::2166377419618034501::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.16.png::CompressedTexture2D::1075308018496200944::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.17.png::CompressedTexture2D::8357776521457704777::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.18.png::CompressedTexture2D::7610652039543378698::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.19.png::CompressedTexture2D::8683232517299908684::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.20.png::CompressedTexture2D::8027932412863811926::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.21.png::CompressedTexture2D::858039559533954950::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.22.png::CompressedTexture2D::5900326604094582087::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.23.png::CompressedTexture2D::7928532410974267219::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.24.png::CompressedTexture2D::4444383837212849696::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.25.png::CompressedTexture2D::2466326888901816722::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.26.png::CompressedTexture2D::7484781315297419856::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.27.png::CompressedTexture2D::1536678903953348010::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.28.png::CompressedTexture2D::7095069428160760902::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.29.png::CompressedTexture2D::7921877619141975500::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.30.png::CompressedTexture2D::1272453635942707960::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.31.png::CompressedTexture2D::4639660628113459468::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.32.png::CompressedTexture2D::8709498846925697747::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.33.png::CompressedTexture2D::3328004933161097743::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.34.png::CompressedTexture2D::4441026507646838832::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.35.png::CompressedTexture2D::1353929942991607401::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.36.png::CompressedTexture2D::4475223080168315937::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.37.png::CompressedTexture2D::5152301328194446142::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.38.png::CompressedTexture2D::2378517721276169173::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.39.png::CompressedTexture2D::2634491693170637408::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.40.png::CompressedTexture2D::657496355165691131::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.41.png::CompressedTexture2D::3124865617295966277::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.42.png::CompressedTexture2D::7947898961658735532::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.43.png::CompressedTexture2D::8960739754419703791::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.44.png::CompressedTexture2D::3030393931943038249::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.45.png::CompressedTexture2D::5016206011782772072::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.46.png::CompressedTexture2D::8762523479871878392::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.47.png::CompressedTexture2D::8828398117217775489::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.48.png::CompressedTexture2D::2729848785385311153::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.49.png::CompressedTexture2D::3505615646961483091::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.50.png::CompressedTexture2D::3531794779842024598::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.51.png::CompressedTexture2D::6438995733367786503::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.52.png::CompressedTexture2D::7384640087151296111::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.53.png::CompressedTexture2D::3008735857943006070::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.54.png::CompressedTexture2D::2349139034889372899::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.55.png::CompressedTexture2D::8099419842521930763::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.56.png::CompressedTexture2D::8991468642405549059::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.57.png::CompressedTexture2D::991239746790146807::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.58.png::CompressedTexture2D::5070563190373409019::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.59.png::CompressedTexture2D::1514479555026824752::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.60.png::CompressedTexture2D::7233391074336305235::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.61.png::CompressedTexture2D::2570720879437756142::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.62.png::CompressedTexture2D::2948436082947190898::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.63.png::CompressedTexture2D::2398193792468217434::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.64.png::CompressedTexture2D::2057133629260178051::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.65.png::CompressedTexture2D::720048838023141933::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.66.png::CompressedTexture2D::857813237613910814::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.67.png::CompressedTexture2D::6357580378542584328::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.68.png::CompressedTexture2D::99203036094046320::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.69.png::CompressedTexture2D::7472501033424348::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.70.png::CompressedTexture2D::3321982137584452151::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.71.png::CompressedTexture2D::2200811835204670753::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.72.png::CompressedTexture2D::2201315222722538238::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.73.png::CompressedTexture2D::1340697559263460254::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.74.png::CompressedTexture2D::5291878887027524174::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.75.png::CompressedTexture2D::97883791786692746::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.76.png::CompressedTexture2D::8383897209139774028::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.77.png::CompressedTexture2D::666790929535448895::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.78.png::CompressedTexture2D::7540984743156821766::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.79.png::CompressedTexture2D::4063984571228242127::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.80.png::CompressedTexture2D::5132931806842784338::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.81.png::CompressedTexture2D::5333643378927453068::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.82.png::CompressedTexture2D::8554708295593371273::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.83.png::CompressedTexture2D::252575948906125081::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.84.png::CompressedTexture2D::3296397068645083849::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.85.png::CompressedTexture2D::115948111041834343::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.86.png::CompressedTexture2D::3170087936146264653::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.87.png::CompressedTexture2D::4953641086808972298::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.88.png::CompressedTexture2D::7544206674031666570::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.89.png::CompressedTexture2D::6857598211279412533::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.90.png::CompressedTexture2D::6961486627703475507::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.91.png::CompressedTexture2D::4821411335181877004::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.92.png::CompressedTexture2D::7065995377872810000::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.93.png::CompressedTexture2D::5079813948512879563::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.94.png::CompressedTexture2D::9185437224900591757::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.95.png::CompressedTexture2D::6970229304254278286::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.96.png::CompressedTexture2D::1581246942098202205::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.97.png::CompressedTexture2D::1770062802934682900::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.98.png::CompressedTexture2D::7000466645035780495::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.99.png::CompressedTexture2D::7278595319846985081::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.100.png::CompressedTexture2D::2382002861931529018::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.101.png::CompressedTexture2D::1629210128590727263::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.102.png::CompressedTexture2D::8665168028256626194::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.103.png::CompressedTexture2D::2188209635012606126::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.104.png::CompressedTexture2D::5128368234683545951::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.105.png::CompressedTexture2D::7685662490358248318::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.106.png::CompressedTexture2D::3266170097097870359::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.107.png::CompressedTexture2D::2658723245674612509::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.108.png::CompressedTexture2D::1258156321539747705::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.109.png::CompressedTexture2D::8042370057924128999::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.110.png::CompressedTexture2D::4475057122848145299::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.111.png::CompressedTexture2D::2624627567697650111::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.112.png::CompressedTexture2D::165115162739245732::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.113.png::CompressedTexture2D::4634640508556147490::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.114.png::CompressedTexture2D::7456737699395960637::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.115.png::CompressedTexture2D::6582648843860961919::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.116.png::CompressedTexture2D::8094283920158072153::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.117.png::CompressedTexture2D::7312976283262830342::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.118.png::CompressedTexture2D::385887746481619544::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.119.png::CompressedTexture2D::3057422095386147383::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.120.png::CompressedTexture2D::3568619296381205365::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.121.png::CompressedTexture2D::2662631248523201176::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.122.png::CompressedTexture2D::2889823937236401799::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.123.png::CompressedTexture2D::5272935763725075329::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.124.png::CompressedTexture2D::6512605062557878004::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.125.png::CompressedTexture2D::5231144601533221185::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.126.png::CompressedTexture2D::274545558412940615::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.127.png::CompressedTexture2D::2028025672643738481::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.128.png::CompressedTexture2D::1419946317298545572::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.129.png::CompressedTexture2D::8492276185500118762::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.130.png::CompressedTexture2D::3860742444033703264::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.131.png::CompressedTexture2D::185881482279711847::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.132.png::CompressedTexture2D::1072656730292853890::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.133.png::CompressedTexture2D::5216499103312944665::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.134.png::CompressedTexture2D::3824514938372251481::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.135.png::CompressedTexture2D::5027993251695863906::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.136.png::CompressedTexture2D::7710452157707895886::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.137.png::CompressedTexture2D::665784547287906283::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.138.png::CompressedTexture2D::671084131982771034::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.139.png::CompressedTexture2D::3905013447136294389::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.140.png::CompressedTexture2D::7995504634837426255::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.141.png::CompressedTexture2D::4381394978470817909::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.142.png::CompressedTexture2D::5000492321340487769::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.143.png::CompressedTexture2D::5871861922347189574::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.144.png::CompressedTexture2D::297226876999796036::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.145.png::CompressedTexture2D::7765514576466171417::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.146.png::CompressedTexture2D::1912860679816128079::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.147.png::CompressedTexture2D::1739216002181030525::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.148.png::CompressedTexture2D::5317047631563166160::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.149.png::CompressedTexture2D::3450609291402242505::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.150.png::CompressedTexture2D::288872915647193636::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.151.png::CompressedTexture2D::5584670071859367094::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.152.png::CompressedTexture2D::3494859410676579650::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.153.png::CompressedTexture2D::7033283614308712915::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.154.png::CompressedTexture2D::8823381734035506395::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.155.png::CompressedTexture2D::6448747965109793134::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.156.png::CompressedTexture2D::7316154072953308073::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.157.png::CompressedTexture2D::4674024413313581204::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.158.png::CompressedTexture2D::449847623960893298::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.159.png::CompressedTexture2D::3697066965230540976::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.160.png::CompressedTexture2D::625641168973088826::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.161.png::CompressedTexture2D::7510114903325470201::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.162.png::CompressedTexture2D::1186864668991837821::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.163.png::CompressedTexture2D::5125826970592088211::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.164.png::CompressedTexture2D::836800793151613397::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.165.png::CompressedTexture2D::6557950987371779424::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.166.png::CompressedTexture2D::5006580110995338785::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.167.png::CompressedTexture2D::6293506798068966405::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.168.png::CompressedTexture2D::5030247024634600136::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.169.png::CompressedTexture2D::7286404714825000543::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.170.png::CompressedTexture2D::1923671504613637752::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.171.png::CompressedTexture2D::7062092085320838817::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.172.png::CompressedTexture2D::4540132167218546039::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.173.png::CompressedTexture2D::3864743556227025698::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.174.png::CompressedTexture2D::5317920007805972245::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.175.png::CompressedTexture2D::3222237353498857857::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.176.png::CompressedTexture2D::758194293460970312::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.177.png::CompressedTexture2D::8990968705274117828::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.178.png::CompressedTexture2D::8996402607929337569::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.179.png::CompressedTexture2D::9061216782862061849::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.180.png::CompressedTexture2D::468700861966280913::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.181.png::CompressedTexture2D::5121163523923588510::1700018539::1700018586::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.182.png::CompressedTexture2D::3720432659618367483::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.183.png::CompressedTexture2D::8365135229089550455::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.184.png::CompressedTexture2D::487874090266168687::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.185.png::CompressedTexture2D::4598481816801971988::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.186.png::CompressedTexture2D::7279258204415567025::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.187.png::CompressedTexture2D::5636069397530305056::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.188.png::CompressedTexture2D::1096491610942055123::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.189.png::CompressedTexture2D::1921314482400055362::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.190.png::CompressedTexture2D::1224255566489641948::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.191.png::CompressedTexture2D::7605052058894572482::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.192.png::CompressedTexture2D::9111137222386433455::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.193.png::CompressedTexture2D::9103864424395961682::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.194.png::CompressedTexture2D::7085496737443819707::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.195.png::CompressedTexture2D::6773145297064397443::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.196.png::CompressedTexture2D::5748556141028606491::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.197.png::CompressedTexture2D::1677475437039183050::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.198.png::CompressedTexture2D::1191165777603380895::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.199.png::CompressedTexture2D::4853865696471051567::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.200.png::CompressedTexture2D::4635548110048843386::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.201.png::CompressedTexture2D::6021860869016546690::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.202.png::CompressedTexture2D::6258713330700529149::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.203.png::CompressedTexture2D::5576763522168711124::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.204.png::CompressedTexture2D::827958457619858227::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.205.png::CompressedTexture2D::7730251023259164790::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.206.png::CompressedTexture2D::8335145380762915233::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.207.png::CompressedTexture2D::469129755737109856::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.208.png::CompressedTexture2D::381143450536666591::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.209.png::CompressedTexture2D::6289460916116339921::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.210.png::CompressedTexture2D::4629831826658369733::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.211.png::CompressedTexture2D::4990832274418115427::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.212.png::CompressedTexture2D::1577708791378547917::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.213.png::CompressedTexture2D::8930122651673392758::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.214.png::CompressedTexture2D::3162881325716847438::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.215.png::CompressedTexture2D::6002260109158152376::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.216.png::CompressedTexture2D::4063404007866069013::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.217.png::CompressedTexture2D::6192166674376306220::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.218.png::CompressedTexture2D::6061743401240732367::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.219.png::CompressedTexture2D::2645855328564595301::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.220.png::CompressedTexture2D::5109668552639614883::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.221.png::CompressedTexture2D::8663480162991125488::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.222.png::CompressedTexture2D::7837034688848640974::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.223.png::CompressedTexture2D::6893237078324564731::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.224.png::CompressedTexture2D::8956011746821769004::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.225.png::CompressedTexture2D::3929974657083502075::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.226.png::CompressedTexture2D::8512386346589838010::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.227.png::CompressedTexture2D::6041321721093449679::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.228.png::CompressedTexture2D::5432064513609556561::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.229.png::CompressedTexture2D::4141625842075127006::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.230.png::CompressedTexture2D::6507636703134927524::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.231.png::CompressedTexture2D::9063680496666442950::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.232.png::CompressedTexture2D::3985485546781744056::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.233.png::CompressedTexture2D::4927138209255374::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.234.png::CompressedTexture2D::1680950201013682733::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.235.png::CompressedTexture2D::7904402231857153260::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.236.png::CompressedTexture2D::8779365246846243181::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.237.png::CompressedTexture2D::3308742744930030032::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.238.png::CompressedTexture2D::6528614415490937769::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.239.png::CompressedTexture2D::2023593928887107068::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.240.png::CompressedTexture2D::4580005207784468111::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.241.png::CompressedTexture2D::1959962054900034780::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.242.png::CompressedTexture2D::8695664892798820081::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.243.png::CompressedTexture2D::7037076961098461180::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.244.png::CompressedTexture2D::8703220020770055541::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.245.png::CompressedTexture2D::5987369009763850635::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.246.png::CompressedTexture2D::5570347497137238331::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.247.png::CompressedTexture2D::4767815996673351734::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.248.png::CompressedTexture2D::3071720252742839247::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.249.png::CompressedTexture2D::4628315907736997037::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.250.png::CompressedTexture2D::5191167565165760165::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.251.png::CompressedTexture2D::1917909220244998546::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.252.png::CompressedTexture2D::285838061865953294::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.253.png::CompressedTexture2D::3041636605619274062::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.254.png::CompressedTexture2D::3887093245045138284::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.255.png::CompressedTexture2D::2563654835096603362::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.256.png::CompressedTexture2D::4011709512349539431::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.257.png::CompressedTexture2D::8268859141887951185::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.258.png::CompressedTexture2D::6310934091628951312::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.259.png::CompressedTexture2D::4287794832332032090::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.260.png::CompressedTexture2D::7080216918331679783::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.261.png::CompressedTexture2D::73248742759616002::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.262.png::CompressedTexture2D::8624475042046005868::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.263.png::CompressedTexture2D::4638362521960577827::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.264.png::CompressedTexture2D::5018321028095127393::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.265.png::CompressedTexture2D::2123685583417257950::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.266.png::CompressedTexture2D::4620429248634036198::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.267.png::CompressedTexture2D::4646422469038309090::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.268.png::CompressedTexture2D::7067046232509539966::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.269.png::CompressedTexture2D::6192271610492048576::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.270.png::CompressedTexture2D::1335395709766035895::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.271.png::CompressedTexture2D::6487534241534176110::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.272.png::CompressedTexture2D::3736693281820321023::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.273.png::CompressedTexture2D::4606997753510178812::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.274.png::CompressedTexture2D::3367859093047546035::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.275.png::CompressedTexture2D::4980224387464506863::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.276.png::CompressedTexture2D::4297661736782620142::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.277.png::CompressedTexture2D::7228674769804154004::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.278.png::CompressedTexture2D::8580764856972092805::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.279.png::CompressedTexture2D::4781532758732904132::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.280.png::CompressedTexture2D::270544683524977712::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.281.png::CompressedTexture2D::1443981415843517930::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.282.png::CompressedTexture2D::755863074888321306::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.283.png::CompressedTexture2D::7857220610550251438::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.284.png::CompressedTexture2D::8053790246548910720::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.285.png::CompressedTexture2D::478387389100191716::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.286.png::CompressedTexture2D::2167728140050378078::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.287.png::CompressedTexture2D::3722691261959066914::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.288.png::CompressedTexture2D::9204422198387021492::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.289.png::CompressedTexture2D::7133474208061814084::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.290.png::CompressedTexture2D::6257874979041193642::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.291.png::CompressedTexture2D::8087266471307382272::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.292.png::CompressedTexture2D::4491275766411544753::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.293.png::CompressedTexture2D::5859164684048796073::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.294.png::CompressedTexture2D::6796070941517711897::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.295.png::CompressedTexture2D::8351929979392899375::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.296.png::CompressedTexture2D::3463855178307116142::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.297.png::CompressedTexture2D::1405847286332956358::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.298.png::CompressedTexture2D::4519841961435703426::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.299.png::CompressedTexture2D::8350791409534479912::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.300.png::CompressedTexture2D::3914396635812094067::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.301.png::CompressedTexture2D::5523632899156821093::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.302.png::CompressedTexture2D::5547219859993959858::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.303.png::CompressedTexture2D::8628598277574156599::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.304.png::CompressedTexture2D::8727264968210388367::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.305.png::CompressedTexture2D::65139658275249938::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.306.png::CompressedTexture2D::2916754258169365528::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.307.png::CompressedTexture2D::8059288088090346445::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.308.png::CompressedTexture2D::5029740810984261581::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.309.png::CompressedTexture2D::5204126332534139544::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.310.png::CompressedTexture2D::8145429420331266881::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.311.png::CompressedTexture2D::8080611206185081356::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.312.png::CompressedTexture2D::502080896715683678::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.313.png::CompressedTexture2D::5338742238456501364::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.314.png::CompressedTexture2D::1962119876021864496::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.315.png::CompressedTexture2D::6252986989441542510::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.316.png::CompressedTexture2D::2500825646697207680::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.317.png::CompressedTexture2D::3084765113516608403::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.318.png::CompressedTexture2D::5608847322892887596::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.319.png::CompressedTexture2D::3016153277933981327::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.320.png::CompressedTexture2D::8517487755440287357::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.321.png::CompressedTexture2D::3857291314881281187::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.322.png::CompressedTexture2D::7941120990258809111::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.323.png::CompressedTexture2D::6530513897518325716::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.324.png::CompressedTexture2D::6720649118099097601::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.325.png::CompressedTexture2D::8030831804888694337::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.326.png::CompressedTexture2D::9150758817992710040::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.327.png::CompressedTexture2D::1894850353820196155::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.328.png::CompressedTexture2D::8555722567896706525::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.329.png::CompressedTexture2D::4201969052603941093::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.330.png::CompressedTexture2D::2297476967127835797::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.331.png::CompressedTexture2D::3186895716405571585::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.332.png::CompressedTexture2D::537573591313685441::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.333.png::CompressedTexture2D::8872988225600039416::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.334.png::CompressedTexture2D::3636490799340327381::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.335.png::CompressedTexture2D::2699895390216680273::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.336.png::CompressedTexture2D::6243974633891219721::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.337.png::CompressedTexture2D::5432735177447160568::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.338.png::CompressedTexture2D::7140508405090497892::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.339.png::CompressedTexture2D::7320818493276623080::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.340.png::CompressedTexture2D::644829986901921511::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.341.png::CompressedTexture2D::8229136101917795480::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.342.png::CompressedTexture2D::3313673188553632659::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.343.png::CompressedTexture2D::214709395227906549::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.344.png::CompressedTexture2D::5950108529961747720::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.345.png::CompressedTexture2D::1735102004894958106::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.346.png::CompressedTexture2D::4844555397893952859::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.347.png::CompressedTexture2D::3722837811199333263::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.348.png::CompressedTexture2D::2867785335653339675::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.349.png::CompressedTexture2D::7741999060254223723::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.350.png::CompressedTexture2D::1475969054227840770::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.351.png::CompressedTexture2D::5298141043023770714::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.352.png::CompressedTexture2D::8375102948754744882::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.353.png::CompressedTexture2D::5979008714783861905::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.354.png::CompressedTexture2D::3925732126040735633::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.355.png::CompressedTexture2D::5787757042799185217::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.356.png::CompressedTexture2D::3650053161199786523::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.357.png::CompressedTexture2D::4930341983348238094::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.358.png::CompressedTexture2D::6354401757714524644::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.359.png::CompressedTexture2D::2201778712766043076::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.360.png::CompressedTexture2D::7273881231013396485::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.361.png::CompressedTexture2D::4111421127636985892::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.362.png::CompressedTexture2D::6422363034267946343::1700018539::1700018585::1::::<><>::
+Tile-set - Toen's Medieval Strategy (16x16) - v.1.363.png::CompressedTexture2D::7205556725526821287::1700018539::1700018585::1::::<><>::
+::res://baseunit/::1700688288
+baseunit.gd::GDScript::-1::1700617346::0::1::::BaseUnit<>Control<>::
+baseunit.tscn::PackedScene::7341859111693299506::1700688288::0::1::::<><>::res://GameRes/GameRes.gd<>res://baseunit/baseunit.gd<>uid://dsfqtpvj7dao1::::res://theme/baseTheme.tres<>uid://c0fhlor8bwwls::::res://GameRes/Resources/Tree.tres
+Previewdrop.gd::GDScript::-1::1700687907::0::1::::<>PanelContainer<>::
+Previewdrop.tscn::PackedScene::7526786177249251384::1700688283::0::1::::<><>::res://baseunit/Previewdrop.gd
+::res://GameRes/::1700688282
+ComponentControl.gd::GDScript::-1::1700688188::0::1::::ComponentControl<>Control<>::
+ComponentControl.tscn::PackedScene::3261629588480737469::1700688282::0::1::::<><>::uid://dsfqtpvj7dao1::::res://theme/baseTheme.tres<>uid://bdb3thpjbognu::::res://assets/resources_basic1.png<>res://GameRes/ComponentControl.gd<>uid://bi172w08sirb6::::res://assets/resources_basic89.png
+GameRes.gd::GDScript::-1::1700678257::0::1::::GameRes<>Resource<>::
+ResourceProp.gd::GDScript::-1::1700350217::0::1::::<>Resource<>::
+Transformation.gd::GDScript::-1::1700351454::0::1::::Transformation<>Resource<>::
+::res://GameRes/Resources/::1700678163
+Anything.tres::Resource/Resource::8000170169843368105::1700595064::0::1::::<><>::res://GameRes/GameRes.gd
+energy.tres::Resource/Resource::8946298067734761655::1700351689::0::1::::<><>::uid://dh47g522lc6ho
+Fire.tres::Resource/GameRes::2996909990335650158::1700678163::0::1::::<><>::res://GameRes/GameRes.gd<>uid://b6kjv3xkidalw::::res://GameRes/Resources/Wood.tres<>uid://d0pwhs0va0oct::::res://GameRes/Resources/energy.tres<>res://GameRes/Transformation.gd
+Inside.tres::Resource/Resource::8544176952298242098::1700609762::0::1::::<><>::res://GameRes/GameRes.gd<>uid://bdg312d3sr7mw
+MoveInside.tres::Resource/Resource::2611121411632363798::1700594932::0::1::::<><>::res://GameRes/GameRes.gd
+MoveOutside.tres::Resource/Resource::5744833367484025793::1700538016::0::1::::<><>::res://GameRes/GameRes.gd
+Outside.tres::Resource/Resource::7416390412158214916::1700609762::0::1::::<><>::res://GameRes/GameRes.gd<>res://GameRes/Transformation.gd<>uid://cn33titf7bjjd
+Tree.tres::Resource/GameRes::6538329772879802624::1700678163::0::1::::<><>::uid://drm5r00ru7l3x::::res://assets/resources_basic3.png<>res://GameRes/GameRes.gd<>uid://b6kjv3xkidalw::::res://GameRes/Resources/Wood.tres<>res://GameRes/Transformation.gd
+Wood.tres::Resource/Resource::4583504075269072548::1700583550::0::1::::<><>::uid://bdb3thpjbognu
+::res://GameUI/::1700265986
+Preview.tscn::PackedScene::1211654362555505513::1700265986::0::1::::<><>::
+::res://Global/::1700678478
+GAME.gd::GDScript::-1::1700678478::0::1::::<>Node<>::
+::res://Level/::1700688282
+Level.tscn::PackedScene::1720618413249309108::1700688282::0::1::::<><>::res://Level/UI.gd<>uid://dcupl2a8b3wcg::::res://baseunit/baseunit.tscn
+UI.gd::GDScript::-1::1700270898::0::1::::<>Control<>::
+::res://theme/::1700678163
+baseTheme.tres::Theme::8433989348045586286::1700678163::0::1::::<><>::uid://d0droee3leu32::::res://theme/Empanada.ttf
+Empanada.ttf::FontFile::8921233682843681651::1700175700::1700345264::1::::<><>::
+Roundman.ttf::FontFile::2189578185294462572::1700175700::1700202880::1::::<><>::

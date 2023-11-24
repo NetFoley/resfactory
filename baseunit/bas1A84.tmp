@@ -1,0 +1,41 @@
+[gd_scene load_steps=8 format=3 uid="uid://dcupl2a8b3wcg"]
+
+[ext_resource type="Script" path="res://GameRes/GameRes.gd" id="1_2t0pa"]
+[ext_resource type="Script" path="res://baseunit/baseunit.gd" id="1_ci0k0"]
+[ext_resource type="Theme" uid="uid://dsfqtpvj7dao1" path="res://theme/baseTheme.tres" id="4_6yfjy"]
+[ext_resource type="Resource" uid="uid://b6kjv3xkidalw" path="res://GameRes/Wood.tres" id="5_56ll7"]
+[ext_resource type="Resource" uid="uid://d0pwhs0va0oct" path="res://GameRes/energy.tres" id="5_68vaj"]
+
+[sub_resource type="Resource" id="Resource_sgvvh"]
+script = ExtResource("1_2t0pa")
+max_quantity = 10000
+quantity = 1
+game_res_name = "b"
+components = Array[ExtResource("1_2t0pa")]([])
+tooltip = null
+transformations = Array[Resource("res://GameRes/Transformation.gd")]([])
+
+[sub_resource type="Resource" id="Resource_bi0r4"]
+script = ExtResource("1_2t0pa")
+max_quantity = 10
+quantity = 1
+game_res_name = ""
+components = Array[ExtResource("1_2t0pa")]([SubResource("Resource_sgvvh"), ExtResource("5_68vaj"), ExtResource("5_56ll7")])
+tooltip = null
+transformations = Array[Resource("res://GameRes/Transformation.gd")]([])
+
+[node name="PanelContainer" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_6yfjy")
+
+[node name="BaseUnit" type="FlowContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("4_6yfjy")
+script = ExtResource("1_ci0k0")
+parent_component = SubResource("Resource_bi0r4")

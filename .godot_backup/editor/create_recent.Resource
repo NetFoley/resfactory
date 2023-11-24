@@ -1,0 +1,3 @@
+GameRes
+Theme
+Resource
