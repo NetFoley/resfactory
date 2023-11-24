@@ -1,11 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://dcupl2a8b3wcg"]
+[gd_scene load_steps=8 format=3 uid="uid://dcupl2a8b3wcg"]
 
 [ext_resource type="Script" path="res://GameRes/GameRes.gd" id="1_2t0pa"]
 [ext_resource type="Script" path="res://baseunit/baseunit.gd" id="1_ci0k0"]
 [ext_resource type="Resource" uid="uid://c0fhlor8bwwls" path="res://GameRes/Resources/Tree.tres" id="3_rlqvc"]
 [ext_resource type="Theme" uid="uid://dsfqtpvj7dao1" path="res://theme/baseTheme.tres" id="4_6yfjy"]
-[ext_resource type="Resource" uid="uid://dty4l1cre60hi" path="res://GameRes/Resources/Inside.tres" id="4_uvgpw"]
-[ext_resource type="Resource" uid="uid://ddws4pyqwnwoi" path="res://GameRes/Resources/Outside.tres" id="5_0gkhv"]
+[ext_resource type="Resource" uid="uid://bigtccfpm4afe" path="res://GameRes/Resources/Sawmill.tres" id="5_oia68"]
 [ext_resource type="Resource" uid="uid://bixyw1fmtwfq1" path="res://GameRes/Resources/Fire.tres" id="6_4lr2q"]
 
 [sub_resource type="Resource" id="Resource_7dxbi"]
@@ -13,7 +12,7 @@ script = ExtResource("1_2t0pa")
 max_quantity = 10
 quantity = 1
 game_res_name = ""
-components = Array[ExtResource("1_2t0pa")]([ExtResource("3_rlqvc"), ExtResource("4_uvgpw"), ExtResource("5_0gkhv"), ExtResource("6_4lr2q")])
+components = Array[ExtResource("1_2t0pa")]([ExtResource("3_rlqvc"), ExtResource("6_4lr2q"), ExtResource("5_oia68")])
 tooltip = ""
 transformations = Array[Resource("res://GameRes/Transformation.gd")]([])
 

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="GameRes" load_steps=3 format=3 uid="uid://cr7cjfn25x8k8"]
+
+[ext_resource type="Texture2D" uid="uid://c1i3gt5peyq7p" path="res://assets/PixelIcons/resources_basic2.png" id="1_02bjq"]
+[ext_resource type="Script" path="res://GameRes/GameRes.gd" id="1_435eb"]
+
+[resource]
+script = ExtResource("1_435eb")
+max_quantity = 10
+quantity = 1
+game_res_name = "Cutwood"
+icon_text = ExtResource("1_02bjq")
+components = Array[ExtResource("1_435eb")]([])
+tooltip = ""
+transformations = Array[Resource("res://GameRes/Transformation.gd")]([])

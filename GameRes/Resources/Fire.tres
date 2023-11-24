@@ -1,5 +1,6 @@
-[gd_resource type="Resource" script_class="GameRes" load_steps=6 format=3 uid="uid://bixyw1fmtwfq1"]
+[gd_resource type="Resource" script_class="GameRes" load_steps=7 format=3 uid="uid://bixyw1fmtwfq1"]
 
+[ext_resource type="Texture2D" uid="uid://7pqrae6i1eya" path="res://assets/PixelIcons/Fire_icon.png" id="1_ijvaa"]
 [ext_resource type="Script" path="res://GameRes/GameRes.gd" id="1_yjn2o"]
 [ext_resource type="Resource" uid="uid://b6kjv3xkidalw" path="res://GameRes/Resources/Wood.tres" id="2_wxbpk"]
 [ext_resource type="Resource" uid="uid://d0pwhs0va0oct" path="res://GameRes/Resources/energy.tres" id="3_7kt8r"]
@@ -10,7 +11,7 @@ script = ExtResource("4_j60m4")
 input_res = ExtResource("2_wxbpk")
 output_res = ExtResource("3_7kt8r")
 energy_needed = 0.0
-ratio = 100.0
+ratio = 10.0
 duration = 1.0
 
 [resource]
@@ -18,6 +19,7 @@ script = ExtResource("1_yjn2o")
 max_quantity = 3
 quantity = 1
 game_res_name = "Fire"
+icon_text = ExtResource("1_ijvaa")
 components = Array[ExtResource("1_yjn2o")]([])
 tooltip = "Fire to heat "
 transformations = Array[ExtResource("4_j60m4")]([SubResource("Resource_g668f")])

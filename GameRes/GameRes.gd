@@ -36,7 +36,7 @@ var parent_game_res : GameRes:
 		components = value
 		emit_changed()
 		
-var components_control : ComponentControl = preload("res://GameRes/ComponentControl2.tscn").instantiate()
+var components_control : ComponentControl = preload("res://GameRes/ComponentControl.tscn").instantiate()
 
 @export var tooltip = "":
 	set(value):

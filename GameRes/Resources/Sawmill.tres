@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="GameRes" load_steps=7 format=3 uid="uid://bigtccfpm4afe"]
+
+[ext_resource type="Script" path="res://GameRes/GameRes.gd" id="1_qukq3"]
+[ext_resource type="Texture2D" uid="uid://dn8pa2qbxpxwx" path="res://assets/SingleIcons/noun-saw-blade.png" id="1_qwuii"]
+[ext_resource type="Script" path="res://GameRes/Transformation.gd" id="3_or0x1"]
+[ext_resource type="Resource" uid="uid://b6kjv3xkidalw" path="res://GameRes/Resources/Wood.tres" id="3_qccy3"]
+[ext_resource type="Resource" uid="uid://cr7cjfn25x8k8" path="res://GameRes/Resources/Cutwood.tres" id="4_uf6am"]
+
+[sub_resource type="Resource" id="Resource_tmboo"]
+script = ExtResource("3_or0x1")
+input_res = ExtResource("3_qccy3")
+output_res = ExtResource("4_uf6am")
+energy_needed = 1.0
+ratio = 1.0
+duration = 2.0
+
+[resource]
+script = ExtResource("1_qukq3")
+max_quantity = 3
+quantity = 1
+game_res_name = "Saw"
+icon_text = ExtResource("1_qwuii")
+components = Array[ExtResource("1_qukq3")]([])
+tooltip = "Can cut resources"
+transformations = Array[ExtResource("3_or0x1")]([SubResource("Resource_tmboo")])

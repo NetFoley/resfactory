@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://yrqll733cpiy"]
+[gd_scene load_steps=4 format=3 uid="uid://yrqll733cpiy"]
 
 [ext_resource type="Script" path="res://Level/UI.gd" id="1_j37cf"]
 [ext_resource type="PackedScene" uid="uid://dcupl2a8b3wcg" path="res://baseunit/baseunit.tscn" id="1_lmsod"]
+[ext_resource type="PackedScene" uid="uid://b7po2ikga3knl" path="res://GameUI/resource_list.tscn" id="3_33gb0"]
 
 [node name="Level" type="Node2D"]
 
@@ -19,11 +20,9 @@ script = ExtResource("1_j37cf")
 [node name="BaseUnit" parent="CanvasLayer/UI" instance=ExtResource("1_lmsod")]
 layout_mode = 1
 
-[node name="PanelContainer" type="PanelContainer" parent="CanvasLayer/UI"]
-layout_mode = 1
-anchors_preset = 10
-anchor_right = 1.0
-grow_horizontal = 2
+[node name="ResourceList" parent="CanvasLayer/UI" instance=ExtResource("3_33gb0")]
+layout_mode = 0
+anchors_preset = 0
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(333, 175)
