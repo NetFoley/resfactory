@@ -19,14 +19,6 @@ func _on_tOut_finished():
 	
 func _on_target_parent_changed(c):
 	_update_anim()
-#	if is_instance_valid(get_parent()):
-#		play_leave_anim()
-#		preview_control_drop.reparent(parent)
-#	else:
-#		parent.add_child(self)
-#	parent.move_child(preview_control_drop, pos)
-#	preview_control_child_index = pos
-#	preview_control_drop.play_spawn_anim()
 	
 func _update_anim():
 	if is_animating:
@@ -61,8 +53,3 @@ func play_leave_anim():
 		tOut.set_parallel()
 		tOut.tween_property(self, "scale", Vector2(0,0), anim_dur).set_trans(Tween.TRANS_QUAD)
 		tOut.tween_property(self, "custom_minimum_size", Vector2(0,0), anim_dur).set_trans(Tween.TRANS_QUAD)
-#		t.set_parallel(false)
-#		t.tween_callback(func():queue_free())
-		
-#func _process(delta):
-		

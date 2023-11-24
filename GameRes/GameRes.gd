@@ -123,23 +123,25 @@ func _process_transform(delta : float):
 				return
 			output_res = comp.duplicate(true)
 			output_res.parent_game_res = null
-			output_res.quantity = 1
-			qty_chg= parent_game_res.add_component_to_relative_pos(1, output_res, true)
+			output_res.quantity = transformed_qty * max(1,current_transformation.ratio)
+			next_comp = parent_game_res.get_component_with_relative_pos(1)
+			if !is_instance_valid(next_comp) or next_comp.game_res_name != output_res.game_res_name or next_comp.game_res_name == output_res.game_res_name and !next_comp.is_full():
+				qty_chg= parent_game_res.add_component_to_relative_pos(1, output_res, true)
 			
 		elif output_res.game_res_name == "MoveInside":
 			if !is_instance_valid(comp) or comp.components.size() > 0:
 				return
 			output_res = comp.duplicate(true)
 			output_res.parent_game_res = null
-			output_res.quantity = 1
-			if is_instance_valid(next_comp):
+			output_res.quantity = transformed_qty * max(1,current_transformation.ratio)
+			if !is_instance_valid(next_comp) or next_comp.game_res_name != output_res.game_res_name or next_comp.game_res_name == output_res.game_res_name and !next_comp.is_full():
 				qty_chg=get_component_with_relative_pos(1).add_component_at(0, output_res, true)
 			
 		else:
 			if is_instance_valid(output_res.parent_game_res):
 				output_res.parent_game_res = null
 			output_res.quantity = transformed_qty * max(1,current_transformation.ratio)
-			if !is_instance_valid(next_comp) or next_comp.game_res_name == output_res.game_res_name and next_comp.is_full():
+			if !is_instance_valid(next_comp) or next_comp.game_res_name != output_res.game_res_name or next_comp.game_res_name == output_res.game_res_name and !next_comp.is_full():
 				qty_chg = add_component_to_relative_pos(1, output_res, true)
 			
 		if qty_chg < transformed_qty:
@@ -152,7 +154,7 @@ func _process_transform(delta : float):
 			energy_comp.quantity -= qty_chg * current_transformation.energy_needed
 
 func is_full():
-	return quantity < max_quantity
+	return quantity >= max_quantity
 	
 		
 func is_inside(game_res):
@@ -212,7 +214,7 @@ func add_component_at(pos : int, component : GameRes, mix = false) -> int:
 			
 	if (component.quantity > 0):
 		component.set_parent_game_res(self, pos)
-#		qty_change += component.quantity
+		qty_change += component.quantity
 	
 	return qty_change
 		

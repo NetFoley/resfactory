@@ -54,6 +54,7 @@ func _ready():
 	%InfoButton.toggled.connect(_on_info_toggled)
 	update_infos()
 	mouse_exited.connect(func():modulate = Color(1,1,1))
+	play_spawn_anim()
 
 #func _enter_tree():
 #	$AnimationPlayer.stop()
@@ -99,7 +100,6 @@ func _get_drag_data(at_position):
 	return game_res
 
 func _drop_data(at_position, data):
-	GAME.can_drop_started.emit(null)
 	if data is GameRes:
 		if GAME.should_mix:
 			game_res.mix_components(data, game_res)
@@ -107,8 +107,8 @@ func _drop_data(at_position, data):
 		else:
 			game_res.add_component_at(GAME.preview_control_child_index, data)
 #		data.set_parent_game_res(game_res)
+	GAME.can_drop_started.emit(null)
 	update_controls()
-#	game_res.components.append(data)
 
 
 func _can_drop_data(at_position, data):
@@ -128,15 +128,18 @@ func _can_drop_data(at_position, data):
 		return true
 	return false
 
+var anim_size_factor = 1.0
 func _process(delta):
-	pivot_offset = size/2
+#	pivot_offset = size/2
 	if !is_instance_valid(game_res):
 		if !Engine.is_editor_hint():
 			queue_free()
 		return
 
-	%BufferBar.value = game_res.buffered_time
 	game_res._process(delta)
+	%BufferBar.value = game_res.buffered_time
+	%SizeController.custom_minimum_size = %ComponentControl.size * (anim_size_factor)
+	%SizeController.pivot_offset = %SizeController.size/2
 
 var tIn : Tween
 func play_spawn_anim():
@@ -145,7 +148,7 @@ func play_spawn_anim():
 			tOut.kill()
 		tIn = get_tree().create_tween()
 		tIn.set_parallel()
-		tIn.tween_property(self, "scale", Vector2(1,1), 0.3).from(Vector2(0,0)).set_trans(Tween.TRANS_QUAD)
+		tIn.tween_property(self, "anim_size_factor", 1.0, 0.2).from(0.0).set_trans(Tween.TRANS_QUAD)
 #		t.tween_property(self, "custom_minimum_size", start_size, 0.3).from(Vector2(0,0)).set_trans(Tween.TRANS_QUAD)
 		
 var tOut : Tween
@@ -155,7 +158,7 @@ func play_leave_anim():
 			tIn.kill()
 		tOut = get_tree().create_tween()
 		tOut.set_parallel()
-		tOut.tween_property(self, "scale", Vector2(0,0), 0.3).set_trans(Tween.TRANS_QUAD)
+		tOut.tween_property(self, "anim_size_factor", 0.0, 0.2).set_trans(Tween.TRANS_QUAD)
 #		t.tween_property(self, "custom_minimum_size", Vector2(0,0), 0.3).set_trans(Tween.TRANS_QUAD)
 		tOut.set_parallel(false)
 		tOut.tween_callback(func():queue_free())
