@@ -16,6 +16,7 @@ duration = 2.0
 
 [resource]
 script = ExtResource("1_qukq3")
+price = 2
 max_quantity = 3
 quantity = 1
 game_res_name = "Saw"

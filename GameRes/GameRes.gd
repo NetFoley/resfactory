@@ -1,6 +1,8 @@
 extends Resource
 class_name GameRes
 		
+@export var price = -1
+		
 @export var max_quantity : int = 10:
 	set(value):
 		max_quantity = value
@@ -10,6 +12,7 @@ class_name GameRes
 	set(value):
 		quantity = value
 		if quantity <= 0:
+			quantity = 0
 			set_parent_game_res(null)
 		elif quantity > max_quantity:
 			quantity = max_quantity
@@ -174,6 +177,8 @@ func set_parent_game_res(new_parent_gr: GameRes, pos = -1):
 		parent_game_res.components.erase(self)
 		parent_game_res.emit_changed()
 	
+	buffered_time = 0.0
+	parent_game_res = new_parent_gr
 	if is_instance_valid(new_parent_gr):
 		if pos < 0 or pos >= new_parent_gr.components.size():
 			new_parent_gr.components.append(self)
@@ -181,12 +186,19 @@ func set_parent_game_res(new_parent_gr: GameRes, pos = -1):
 			new_parent_gr.components.insert(pos, self)
 		new_parent_gr.emit_changed()
 			
-	parent_game_res = new_parent_gr
 	if !is_instance_valid(parent_game_res):
 		if is_instance_valid(components_control):
 			components_control.play_leave_anim()
 	else:
 		components_control.play_spawn_anim()
+
+func get_components_with_name(n : String) -> Array[GameRes]:
+	var comps : Array[GameRes]= []
+	for comp in components:
+		if comp.game_res_name == n:
+			comps.append(comp)
+			
+	return comps
 
 func get_component_at(pos : int) -> GameRes:
 	if pos < 0 or components.size() <= pos or !is_instance_valid(components[pos]):
@@ -209,9 +221,9 @@ func add_component_at(pos : int, component : GameRes, mix = false) -> int:
 		var previous_comp = get_component_at(pos-1)
 		if next_comp != component and is_instance_valid(next_comp):
 			qty_change += mix_components(component,  next_comp)
-		if next_comp != component and (is_instance_valid(previous_comp)):
+		if previous_comp != component and (is_instance_valid(previous_comp)):
 			qty_change += mix_components(component,  previous_comp)
-			
+	
 	if (component.quantity > 0):
 		component.set_parent_game_res(self, pos)
 		qty_change += component.quantity

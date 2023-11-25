@@ -1,10 +1,12 @@
 extends Node
 
 signal can_drop_started(node : Control, position:int)
-
+signal res_dragged(res: GameRes)
+signal res_bought(res : GameRes)
 signal dragged_changed(value : bool)
 signal target_parent_changed(value : Control)
 
+var last_dragged_res : GameRes
 var target_parent : Control:
 	set(value):
 		target_parent = value
@@ -20,13 +22,14 @@ var is_dragging = false:
 
 func _ready():
 	can_drop_started.connect(_on_can_drop_started)
+	res_dragged.connect(func(value : GameRes): last_dragged_res = value)
 	
 func _on_can_drop_started(node, pos = -1):
 	set_new_preview_parent(node, pos)
 
 func set_new_preview_parent(parent : Control, pos : int):
 	if !is_instance_valid(preview_control_drop):
-		preview_control_drop = preload("res://baseunit/Previewdrop.tscn").instantiate()
+		preview_control_drop = preload("res://GameUI/baseunit/Previewdrop.tscn").instantiate()
 	if parent == target_parent and pos == preview_control_child_index:
 		return
 #

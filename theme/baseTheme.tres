@@ -1,6 +1,66 @@
-[gd_resource type="Theme" load_steps=6 format=3 uid="uid://dsfqtpvj7dao1"]
+[gd_resource type="Theme" load_steps=14 format=3 uid="uid://dsfqtpvj7dao1"]
 
 [ext_resource type="FontFile" uid="uid://d0droee3leu32" path="res://theme/Empanada.ttf" id="1_lcwwg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yrc21"]
+bg_color = Color(0.141176, 0.0117647, 0.0235294, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.396078, 0.0745098, 0.121569, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j63la"]
+bg_color = Color(0.745098, 0.192157, 0.266667, 0.168627)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.717647, 0.176471, 0.25098, 0.176471)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gn4xx"]
+bg_color = Color(0.941176, 0.34902, 0.254902, 0.282353)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.396078, 0.0745098, 0.121569, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k388y"]
+bg_color = Color(0.2, 0.027451, 0.14902, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.396078, 0.0745098, 0.121569, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_y7f6f"]
+bg_color = Color(0.341176, 0.0627451, 0.101961, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.396078, 0.0745098, 0.121569, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lkgaf"]
 bg_color = Color(0.133333, 0.0352941, 0.172549, 1)
@@ -30,6 +90,17 @@ corner_radius_bottom_right = 5
 corner_radius_bottom_left = 5
 anti_aliasing = false
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6o7nt"]
+bg_color = Color(0.133333, 0.0352941, 0.172549, 1)
+border_width_left = 4
+border_color = Color(0.941176, 0.34902, 0.254902, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_in6i2"]
+bg_color = Color(0.133333, 0.0352941, 0.172549, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4ys7e"]
+bg_color = Color(0, 0, 0, 0)
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rtmk7"]
 bg_color = Color(0.133333, 0.0352941, 0.172549, 0.901961)
 border_width_left = 5
@@ -45,10 +116,24 @@ corner_radius_bottom_left = 9
 [resource]
 default_font = ExtResource("1_lcwwg")
 default_font_size = 36
+Button/styles/disabled = SubResource("StyleBoxFlat_yrc21")
+Button/styles/focus = SubResource("StyleBoxFlat_j63la")
+Button/styles/hover = SubResource("StyleBoxFlat_gn4xx")
+Button/styles/normal = SubResource("StyleBoxFlat_k388y")
+Button/styles/pressed = SubResource("StyleBoxFlat_y7f6f")
+MarginContainer/constants/margin_bottom = 5
+MarginContainer/constants/margin_left = 5
+MarginContainer/constants/margin_right = 5
+MarginContainer/constants/margin_top = 5
 Panel/styles/panel = SubResource("StyleBoxFlat_lkgaf")
 PanelContainer/styles/panel = SubResource("StyleBoxFlat_lkgaf")
 ProgressBar/font_sizes/font_size = 26
 ProgressBar/styles/background = SubResource("StyleBoxFlat_swp45")
 ProgressBar/styles/fill = SubResource("StyleBoxFlat_dpt37")
+RightUIPanel/base_type = &"PanelContainer"
+RightUIPanel/styles/panel = SubResource("StyleBoxFlat_6o7nt")
+ShopPanel/base_type = &"PanelContainer"
+ShopPanel/styles/panel = SubResource("StyleBoxFlat_in6i2")
+TabContainer/styles/panel = SubResource("StyleBoxFlat_4ys7e")
 TooltipPanel/styles/panel = SubResource("StyleBoxFlat_rtmk7")
 VBoxContainer/constants/separation = 4

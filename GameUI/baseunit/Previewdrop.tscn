@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dfibclmxummh1"]
 
-[ext_resource type="Script" path="res://baseunit/Previewdrop.gd" id="1_i34wh"]
+[ext_resource type="Script" path="res://GameUI/baseunit/Previewdrop.gd" id="1_i34wh"]
 
 [node name="Previewdrop" type="PanelContainer"]
 modulate = Color(2, 2, 2, 1)

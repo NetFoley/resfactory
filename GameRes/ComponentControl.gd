@@ -20,6 +20,7 @@ func update_controls():
 #	%QuantityBar.value = game_res.quantity
 	%QuantityBar.max_value = game_res.max_quantity
 	%QuantityBar/Label.text = str(round(game_res.quantity)) + "/" + str(round(game_res.max_quantity))
+	%BufferBar.value = game_res.buffered_time
 
 	#Add components control
 	for component in game_res.components:
@@ -44,6 +45,16 @@ func update_controls():
 			components_control.add_child(control)
 
 @onready var last_control = %LastControl
+var is_enabled = true
+			
+var can_be_dragged = true:
+	set(value):
+		is_enabled = value
+		if value:
+			mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+		else:
+			mouse_default_cursor_shape = Control.CURSOR_FORBIDDEN
+	
 
 func _on_child_order_changed():
 	if is_instance_valid(components_control):
@@ -55,6 +66,8 @@ func _ready():
 	update_infos()
 	mouse_exited.connect(func():modulate = Color(1,1,1))
 	play_spawn_anim()
+	update_controls()
+	%ComponentPanel.theme_type_variation = theme_type_variation
 
 #func _enter_tree():
 #	$AnimationPlayer.stop()
@@ -88,7 +101,10 @@ func _on_game_res_changed():
 func add_control_to_my_info(control : Control):
 	%MyInfo.add_child(control)
 
-func _get_drag_data(at_position):
+func _get_drag_data(_at_position):
+	if !can_be_dragged:
+		return null
+	GAME.res_dragged.emit(game_res)
 	var preview = Control.new()
 	var self_preview = duplicate(0)
 #	self_preview.scale *= 0.5
@@ -112,6 +128,8 @@ func _drop_data(at_position, data):
 
 
 func _can_drop_data(at_position, data):
+	if !can_be_dragged:
+		return false
 	if data != game_res and !game_res.is_inside(data):
 		var closest_pos = GAME.get_closest_child_index_at_pos(components_control, at_position)
 		if at_position.y > min(get_rect().size.y/2, get_rect().size.y - %Components.get_rect().size.y):
@@ -130,16 +148,19 @@ func _can_drop_data(at_position, data):
 
 var anim_size_factor = 1.0
 func _process(delta):
+	%SizeController.custom_minimum_size = %ComponentControl.size * (anim_size_factor)
+	%SizeController.pivot_offset = %SizeController.size/2
 #	pivot_offset = size/2
 	if !is_instance_valid(game_res):
 		if !Engine.is_editor_hint():
 			queue_free()
 		return
+		
+	if !is_enabled:
+		return
 
 	game_res._process(delta)
 	%BufferBar.value = game_res.buffered_time
-	%SizeController.custom_minimum_size = %ComponentControl.size * (anim_size_factor)
-	%SizeController.pivot_offset = %SizeController.size/2
 
 var tIn : Tween
 func play_spawn_anim():

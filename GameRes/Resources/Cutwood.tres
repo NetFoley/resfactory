@@ -5,6 +5,7 @@
 
 [resource]
 script = ExtResource("1_435eb")
+price = 5
 max_quantity = 10
 quantity = 1
 game_res_name = "Cutwood"

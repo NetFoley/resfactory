@@ -4,6 +4,7 @@
 
 [resource]
 script = ExtResource("1_rj5qc")
+price = -1
 max_quantity = 10
 quantity = 1
 game_res_name = "MoveInside"

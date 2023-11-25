@@ -1,6 +1,7 @@
-[gd_resource type="Resource" script_class="GameRes" load_steps=6 format=3 uid="uid://ddws4pyqwnwoi"]
+[gd_resource type="Resource" script_class="GameRes" load_steps=7 format=3 uid="uid://ddws4pyqwnwoi"]
 
 [ext_resource type="Script" path="res://GameRes/GameRes.gd" id="1_0l66v"]
+[ext_resource type="Texture2D" uid="uid://ho23sawwcfd2" path="res://assets/SingleIcons/noun-leave.png" id="1_o0jnc"]
 [ext_resource type="Script" path="res://GameRes/Transformation.gd" id="2_cdd40"]
 [ext_resource type="Resource" uid="uid://cn33titf7bjjd" path="res://GameRes/Resources/MoveOutside.tres" id="2_m47sr"]
 [ext_resource type="Resource" uid="uid://dl8lvs0fbjtbd" path="res://GameRes/Resources/Anything.tres" id="2_tre6i"]
@@ -15,9 +16,11 @@ duration = 3.0
 
 [resource]
 script = ExtResource("1_0l66v")
+price = 14
 max_quantity = 10
 quantity = 1
 game_res_name = "Move outside"
+icon_text = ExtResource("1_o0jnc")
 components = Array[ExtResource("1_0l66v")]([])
 tooltip = ""
 transformations = Array[ExtResource("2_cdd40")]([SubResource("Resource_rhmfh")])

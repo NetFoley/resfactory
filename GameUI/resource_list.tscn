@@ -1,6 +1,0 @@
-[gd_scene format=3 uid="uid://b7po2ikga3knl"]
-
-[node name="ResourceList" type="PanelContainer"]
-anchors_preset = 10
-anchor_right = 1.0
-grow_horizontal = 2

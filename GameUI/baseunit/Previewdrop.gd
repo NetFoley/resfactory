@@ -17,7 +17,7 @@ func _on_tOut_finished():
 	is_animating = false
 	_update_anim()
 	
-func _on_target_parent_changed(c):
+func _on_target_parent_changed(_c):
 	_update_anim()
 	
 func _update_anim():

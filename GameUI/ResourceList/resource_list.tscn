@@ -1,0 +1,187 @@
+[gd_scene load_steps=8 format=3 uid="uid://b7po2ikga3knl"]
+
+[ext_resource type="Theme" uid="uid://dsfqtpvj7dao1" path="res://theme/baseTheme.tres" id="1_itjjk"]
+[ext_resource type="Script" path="res://GameUI/ResourceList/resource_list.gd" id="2_qp6pi"]
+[ext_resource type="Script" path="res://GameUI/ResourceList/Inventory.gd" id="3_1lx7s"]
+[ext_resource type="Script" path="res://GameRes/GameRes.gd" id="4_pk4rk"]
+[ext_resource type="Texture2D" uid="uid://bkycejwrrvkoj" path="res://assets/PixelIcons/resources_basic65.png" id="5_pbtif"]
+[ext_resource type="Script" path="res://GameUI/ResourceList/SellContainer.gd" id="5_vuwbk"]
+
+[sub_resource type="Resource" id="Resource_161hy"]
+script = ExtResource("4_pk4rk")
+price = -1
+max_quantity = 10
+quantity = 1
+game_res_name = ""
+components = Array[ExtResource("4_pk4rk")]([])
+tooltip = ""
+transformations = Array[Resource("res://GameRes/Transformation.gd")]([])
+
+[node name="HBoxContainer" type="HBoxContainer"]
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -326.0
+grow_horizontal = 0
+grow_vertical = 2
+theme = ExtResource("1_itjjk")
+script = ExtResource("2_qp6pi")
+resources_path = "res://GameRes/Resources"
+
+[node name="ShowButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+focus_mode = 0
+toggle_mode = true
+text = "<"
+
+[node name="ListContainer" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("1_itjjk")
+theme_type_variation = &"RightUIPanel"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ListContainer"]
+layout_mode = 2
+
+[node name="TabContainer" type="TabContainer" parent="ListContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+tab_alignment = 1
+
+[node name="Shop" type="VBoxContainer" parent="ListContainer/VBoxContainer/TabContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ListContainer/VBoxContainer/TabContainer/Shop"]
+layout_mode = 2
+alignment = 1
+
+[node name="MoneyAmount" type="Label" parent="ListContainer/VBoxContainer/TabContainer/Shop/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "0"
+horizontal_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="ListContainer/VBoxContainer/TabContainer/Shop/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("5_pbtif")
+expand_mode = 2
+stretch_mode = 3
+
+[node name="Label3" type="Label" parent="ListContainer/VBoxContainer/TabContainer/Shop/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "in inventory"
+horizontal_alignment = 1
+
+[node name="Label" type="Label" parent="ListContainer/VBoxContainer/TabContainer/Shop"]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 66
+text = "Shop"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="ListContainer/VBoxContainer/TabContainer/Shop"]
+visible = false
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="ListContainer/VBoxContainer/TabContainer/Shop"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ShopList" type="VBoxContainer" parent="ListContainer/VBoxContainer/TabContainer/Shop/ScrollContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
+
+[node name="Inventory" type="ScrollContainer" parent="ListContainer/VBoxContainer/TabContainer" node_paths=PackedStringArray("parent_control")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+script = ExtResource("3_1lx7s")
+process_components = false
+parent_component = SubResource("Resource_161hy")
+parent_control = NodePath("InventoryList")
+
+[node name="InventoryList" type="VBoxContainer" parent="ListContainer/VBoxContainer/TabContainer/Inventory"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+alignment = 1
+
+[node name="LastControl" type="Control" parent="ListContainer/VBoxContainer/TabContainer/Inventory/InventoryList"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="SellContainer" type="PanelContainer" parent="ListContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.4
+script = ExtResource("5_vuwbk")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ListContainer/VBoxContainer/SellContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("5_pbtif")
+expand_mode = 2
+stretch_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("5_pbtif")
+expand_mode = 2
+stretch_mode = 1
+
+[node name="Label" type="Label" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "SELL"
+horizontal_alignment = 1
+
+[node name="TextureRect3" type="TextureRect" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("5_pbtif")
+expand_mode = 2
+stretch_mode = 1
+
+[node name="TextureRect4" type="TextureRect" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("5_pbtif")
+expand_mode = 2
+stretch_mode = 1
+
+[node name="HSeparator" type="HSeparator" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="PriceCont" type="HBoxContainer" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+alignment = 1
+
+[node name="PriceLabel" type="Label" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer/PriceCont"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 86
+text = "5"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect5" type="TextureRect" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer/PriceCont"]
+layout_mode = 2
+texture = ExtResource("5_pbtif")
+expand_mode = 2
+stretch_mode = 4

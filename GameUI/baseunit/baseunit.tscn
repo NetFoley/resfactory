@@ -1,18 +1,17 @@
-[gd_scene load_steps=8 format=3 uid="uid://dcupl2a8b3wcg"]
+[gd_scene load_steps=6 format=3 uid="uid://dcupl2a8b3wcg"]
 
-[ext_resource type="Script" path="res://GameRes/GameRes.gd" id="1_2t0pa"]
-[ext_resource type="Script" path="res://baseunit/baseunit.gd" id="1_ci0k0"]
-[ext_resource type="Resource" uid="uid://c0fhlor8bwwls" path="res://GameRes/Resources/Tree.tres" id="3_rlqvc"]
-[ext_resource type="Theme" uid="uid://dsfqtpvj7dao1" path="res://theme/baseTheme.tres" id="4_6yfjy"]
-[ext_resource type="Resource" uid="uid://bigtccfpm4afe" path="res://GameRes/Resources/Sawmill.tres" id="5_oia68"]
-[ext_resource type="Resource" uid="uid://bixyw1fmtwfq1" path="res://GameRes/Resources/Fire.tres" id="6_4lr2q"]
+[ext_resource type="Theme" uid="uid://dsfqtpvj7dao1" path="res://theme/baseTheme.tres" id="1_pcchm"]
+[ext_resource type="Script" path="res://GameUI/baseunit/baseunit.gd" id="2_aosxw"]
+[ext_resource type="Resource" uid="uid://c0fhlor8bwwls" path="res://GameRes/Resources/Tree.tres" id="3_jnfxg"]
+[ext_resource type="Script" path="res://GameRes/GameRes.gd" id="6_wedvv"]
 
 [sub_resource type="Resource" id="Resource_7dxbi"]
-script = ExtResource("1_2t0pa")
+script = ExtResource("6_wedvv")
+price = -1
 max_quantity = 10
 quantity = 1
 game_res_name = ""
-components = Array[ExtResource("1_2t0pa")]([ExtResource("3_rlqvc"), ExtResource("6_4lr2q"), ExtResource("5_oia68")])
+components = Array[ExtResource("6_wedvv")]([ExtResource("3_jnfxg")])
 tooltip = ""
 transformations = Array[Resource("res://GameRes/Transformation.gd")]([])
 
@@ -23,8 +22,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 1
-theme = ExtResource("4_6yfjy")
-script = ExtResource("1_ci0k0")
+theme = ExtResource("1_pcchm")
+script = ExtResource("2_aosxw")
 parent_component = SubResource("Resource_7dxbi")
 parent_control = NodePath("VBoxContainer/BaseUnit")
 
@@ -35,7 +34,7 @@ alignment = 1
 [node name="BaseUnit" type="HBoxContainer" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("4_6yfjy")
+theme = ExtResource("1_pcchm")
 theme_override_constants/separation = 15
 alignment = 1
 

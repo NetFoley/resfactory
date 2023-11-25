@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://kfqudbo3ny1w"]
+
+[ext_resource type="Texture2D" uid="uid://c7s7naxm6c6of" path="res://assets/PixelIcons/resources_basic43.png" id="1_gh6hc"]
+[ext_resource type="Script" path="res://GameUI/ResourceList/shop_element.gd" id="1_thieq"]
+
+[node name="ShopElement" type="HBoxContainer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -22.0
+offset_top = -16.0
+offset_right = 22.0
+offset_bottom = 16.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_thieq")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="HBOX" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/HBOX"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "1"
+icon = ExtResource("1_gh6hc")
+icon_alignment = 2
