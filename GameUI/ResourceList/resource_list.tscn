@@ -50,11 +50,13 @@ theme_type_variation = &"RightUIPanel"
 layout_mode = 2
 
 [node name="TabContainer" type="TabContainer" parent="ListContainer/VBoxContainer"]
+unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
 tab_alignment = 1
 
 [node name="Shop" type="VBoxContainer" parent="ListContainer/VBoxContainer/TabContainer"]
+unique_name_in_owner = true
 layout_mode = 2
 
 [node name="HBoxContainer" type="HBoxContainer" parent="ListContainer/VBoxContainer/TabContainer/Shop"]
