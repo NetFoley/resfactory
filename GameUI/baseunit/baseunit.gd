@@ -14,6 +14,7 @@ class_name BaseUnit
 signal changed()
 signal res_changed()
 
+
 func _ready():
 	parent_control.child_order_changed.connect(_on_child_order_changed)
 

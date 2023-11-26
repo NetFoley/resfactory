@@ -49,6 +49,8 @@ var components_control : ComponentControl = preload("res://GameRes/ComponentCont
 			
 @export var transformations : Array[Transformation]
 
+@export var unlocked_by : GameRes
+
 var can_process = true
 
 func _init():

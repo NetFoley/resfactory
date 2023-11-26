@@ -3,7 +3,7 @@
 [ext_resource type="Theme" uid="uid://dsfqtpvj7dao1" path="res://theme/baseTheme.tres" id="1_awg3s"]
 [ext_resource type="Script" path="res://GameRes/ComponentControl.gd" id="1_q444n"]
 [ext_resource type="Texture2D" uid="uid://bdb3thpjbognu" path="res://assets/PixelIcons/resources_basic1.png" id="3_76ecm"]
-[ext_resource type="Texture2D" uid="uid://bi172w08sirb6" path="res://assets/PixelIcons/resources_basic89.png" id="4_q8i02"]
+[ext_resource type="Texture2D" uid="uid://cy1n6jd0sgdig" path="res://assets/SingleIcons/noun-book.png" id="4_7itdu"]
 
 [node name="MarginContainer" type="MarginContainer"]
 anchors_preset = 8
@@ -16,6 +16,7 @@ grow_vertical = 2
 pivot_offset = Vector2(87.9, 65.73)
 size_flags_horizontal = 4
 size_flags_vertical = 4
+mouse_default_cursor_shape = 2
 theme = ExtResource("1_awg3s")
 theme_override_constants/margin_left = 0
 theme_override_constants/margin_top = 0
@@ -31,7 +32,6 @@ layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 mouse_filter = 1
-mouse_default_cursor_shape = 2
 
 [node name="ComponentControl" type="VBoxContainer" parent="SizeController"]
 unique_name_in_owner = true
@@ -134,7 +134,7 @@ layout_mode = 2
 mouse_filter = 1
 mouse_default_cursor_shape = 2
 toggle_mode = true
-icon = ExtResource("4_q8i02")
+icon = ExtResource("4_7itdu")
 icon_alignment = 1
 expand_icon = true
 

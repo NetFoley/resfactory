@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("2_0rs4x")
-price = 19
+price = 1
 max_quantity = 5
-quantity = 78
+quantity = 5
 game_res_name = "Wood"
 icon_text = ExtResource("1_5forr")
 components = Array[ExtResource("2_0rs4x")]([])

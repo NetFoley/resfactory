@@ -49,7 +49,7 @@ var is_enabled = true
 			
 var can_be_dragged = true:
 	set(value):
-		is_enabled = value
+		can_be_dragged = value
 		if value:
 			mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
 		else:

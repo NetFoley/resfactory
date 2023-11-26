@@ -25,20 +25,28 @@ mouse_filter = 1
 theme = ExtResource("1_pcchm")
 script = ExtResource("2_aosxw")
 parent_component = SubResource("Resource_7dxbi")
-parent_control = NodePath("VBoxContainer/BaseUnit")
+parent_control = NodePath("VBoxContainer/MarginContainer/BaseUnit")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 2
 alignment = 1
 
-[node name="BaseUnit" type="HBoxContainer" parent="VBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+
+[node name="BaseUnit" type="HBoxContainer" parent="VBoxContainer/MarginContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("1_pcchm")
 theme_override_constants/separation = 15
 alignment = 1
 
-[node name="LastControl" type="Control" parent="VBoxContainer/BaseUnit"]
+[node name="LastControl" type="Control" parent="VBoxContainer/MarginContainer/BaseUnit"]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(0.85, 3.095)
 layout_mode = 2

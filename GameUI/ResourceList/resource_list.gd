@@ -8,16 +8,27 @@ func _ready():
 	var dir = DirAccess.open(resources_path)
 	dir.list_dir_begin()
 	var next_file = dir.get_next()
+	next_file = next_file.trim_suffix('.remap')
 	print(dir)
+	print(next_file)
+	var resources : Array[GameRes] = []
 	while next_file:
+		print(next_file)
 		if next_file.ends_with(".tres"):
 			var new_res = load(resources_path + "/" + next_file)
 			if new_res is GameRes:
 				print("Loaded " + new_res.game_res_name)
 				new_res = new_res.duplicate()
 				if new_res.price >= 0:
-					add_res_to_list(new_res)
+					resources.append(new_res)
 		next_file = dir.get_next()
+		next_file = next_file.trim_suffix('.remap')
+	
+	resources.sort_custom(func(a,b): return a.price < b.price)
+	
+	for r in resources:
+		add_res_to_list(r)
+	
 	%ShowButton.toggled.connect(_on_showbutton_toggled)
 	%ShowButton.button_pressed = true
 	GAME.res_bought.connect(_on_res_bought)
