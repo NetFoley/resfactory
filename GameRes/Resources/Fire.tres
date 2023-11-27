@@ -1,16 +1,21 @@
-[gd_resource type="Resource" script_class="GameRes" load_steps=7 format=3 uid="uid://bixyw1fmtwfq1"]
+[gd_resource type="Resource" script_class="GameRes" load_steps=9 format=3 uid="uid://bixyw1fmtwfq1"]
 
 [ext_resource type="Texture2D" uid="uid://7pqrae6i1eya" path="res://assets/PixelIcons/Fire_icon.png" id="1_ijvaa"]
 [ext_resource type="Script" path="res://GameRes/GameRes.gd" id="1_yjn2o"]
 [ext_resource type="Resource" uid="uid://b6kjv3xkidalw" path="res://GameRes/Resources/Wood.tres" id="2_wxbpk"]
 [ext_resource type="Resource" uid="uid://d0pwhs0va0oct" path="res://GameRes/Resources/energy.tres" id="3_7kt8r"]
 [ext_resource type="Script" path="res://GameRes/Transformation.gd" id="4_j60m4"]
+[ext_resource type="Script" path="res://GameRes/Transformation_res.gd" id="4_p0vw2"]
+
+[sub_resource type="Resource" id="Resource_fuhpp"]
+script = ExtResource("4_p0vw2")
+game_res = ExtResource("2_wxbpk")
+ratio = 1
 
 [sub_resource type="Resource" id="Resource_g668f"]
 script = ExtResource("4_j60m4")
-input_res = ExtResource("2_wxbpk")
+input_res = Array[ExtResource("4_p0vw2")]([SubResource("Resource_fuhpp")])
 output_res = ExtResource("3_7kt8r")
-energy_needed = 0.0
 ratio = 10.0
 duration = 1.0
 

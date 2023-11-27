@@ -85,15 +85,44 @@ func update_infos():
 		c.queue_free()
 		
 	for t in game_res.transformations:
-		var label = Label.new()
-		if is_instance_valid(t.input_res):
-			label.text += t.input_res.game_res_name
-			
-		label.text += " > " 
-		if is_instance_valid(t.output_res):
-			label.text += t.output_res.game_res_name
+		var transfo = HBoxContainer.new()
+		transfo.alignment = BoxContainer.ALIGNMENT_CENTER
+		var input_labels = VBoxContainer.new()
+		for input in t.input_res:
+			var cont = HBoxContainer.new()
+			cont.mouse_default_cursor_shape = Control.CURSOR_HELP
+			cont.tooltip_text = input.game_res.game_res_name
+			var label = Label.new()
+			var icon_text = TextureRect.new()
+			icon_text.expand_mode = TextureRect.EXPAND_FIT_WIDTH_PROPORTIONAL
+			icon_text.texture = input.game_res.icon_text
+			label.text = str(input.ratio)
+			cont.add_child(label)
+			cont.add_child(icon_text)
+			input_labels.add_child(cont)
+		transfo.add_child(input_labels)
 		
-		%Infos.add_child(label)
+		var arrow_label = Label.new()
+		arrow_label.text += " > " 
+		transfo.add_child(arrow_label)
+		
+		var output_cont = VBoxContainer.new()
+		if is_instance_valid(t.output_res):
+			var cont = HBoxContainer.new()
+			cont.size_flags_vertical = SIZE_SHRINK_CENTER
+			cont.tooltip_text = t.output_res.game_res_name
+			cont.mouse_default_cursor_shape = Control.CURSOR_HELP
+			var label = Label.new()
+			var icon_text = TextureRect.new()
+			icon_text.expand_mode = TextureRect.EXPAND_FIT_WIDTH_PROPORTIONAL
+			icon_text.texture = t.output_res.icon_text
+			label.text = str(t.ratio)
+			cont.add_child(label)
+			cont.add_child(icon_text)
+			output_cont.add_child(cont)
+		transfo.add_child(output_cont)
+		
+		%Infos.add_child(transfo)
 
 func _on_game_res_changed():
 	update_controls()

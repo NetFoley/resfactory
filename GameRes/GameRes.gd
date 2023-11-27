@@ -86,34 +86,52 @@ func _process(delta):
 	_process_transform(delta)
 		
 func _process_transform(delta : float):
-	var comp = get_component_with_relative_pos(-1)
-	var comp_name = "null"
-	if is_instance_valid(comp):
-		comp_name = comp.game_res_name
+	var input_comps : Array[TransformationRes]= []
 		
 	var current_transformation : Transformation
 	var output_res : GameRes
+	var has_all_input = false
 	for t in transformations:
-		if !is_instance_valid(t.input_res):
-			comp = null
-			output_res = t.output_res.duplicate(true)
-			current_transformation = t
-			break
+		has_all_input = true
 		
-			
-		elif t.input_res.game_res_name == "Anything" or t.input_res.game_res_name == comp_name:
+		
+		for input_res in t.input_res:
+			if input_res.game_res.game_res_name != "Anything":
+				var comp = get_component_with_name(input_res.game_res.game_res_name)
+				if !is_instance_valid(comp):
+					has_all_input = false
+					input_comps = []
+					break
+				else:
+					var trans_res = TransformationRes.new()
+					trans_res.game_res = comp
+					trans_res.ratio = input_res.ratio
+					input_comps.append(trans_res)
+			else:
+				var i = 0
+				var comp = get_component_at(i)
+				while input_comps.has(comp) and i < input_comps.size():
+					i += 1
+					comp = get_component_at(i)
+				if is_instance_valid(comp):
+					var trans_res = TransformationRes.new()
+					trans_res.game_res = comp
+					trans_res.ratio = input_res.ratio
+					input_comps.append(trans_res)
+				else:
+					has_all_input = false
+					input_comps = []
+					break
+				
+		if has_all_input:
 			output_res = t.output_res.duplicate(true)
 			current_transformation = t
 			break
 			
-	if !is_instance_valid(output_res):
-		buffered_time = 0.0
-		return
 			
-	if get_energy_qty() < current_transformation.energy_needed:
+	if !is_instance_valid(output_res) or !has_all_input:
 		buffered_time = 0.0
 		return
-	
 			
 	buffered_time += delta * quantity / current_transformation.duration
 	
@@ -124,23 +142,27 @@ func _process_transform(delta : float):
 		
 		var next_comp : GameRes = get_component_with_relative_pos(1)
 		if output_res.game_res_name == "MoveOutside":
-			if !is_instance_valid(comp) or comp.components.size() > 0:
-				return
-			output_res = comp.duplicate(true)
-			output_res.parent_game_res = null
-			output_res.quantity = transformed_qty * max(1,current_transformation.ratio)
-			next_comp = parent_game_res.get_component_with_relative_pos(1)
-			if !is_instance_valid(next_comp) or next_comp.game_res_name != output_res.game_res_name or next_comp.game_res_name == output_res.game_res_name and !next_comp.is_full():
-				qty_chg= parent_game_res.add_component_to_relative_pos(1, output_res, true)
+			for input_comp in input_comps:
+				var comp = input_comp.game_res
+				if !is_instance_valid(comp) or comp.components.size() > 0:
+					return
+				output_res = comp.duplicate(true)
+				output_res.parent_game_res = null
+				output_res.quantity = transformed_qty * max(1,current_transformation.ratio)
+				next_comp = parent_game_res.get_component_with_relative_pos(1)
+				if !is_instance_valid(next_comp) or next_comp.game_res_name != output_res.game_res_name or next_comp.game_res_name == output_res.game_res_name and !next_comp.is_full():
+					qty_chg= parent_game_res.add_component_to_relative_pos(1, output_res, true)
 			
 		elif output_res.game_res_name == "MoveInside":
-			if !is_instance_valid(comp) or comp.components.size() > 0:
-				return
-			output_res = comp.duplicate(true)
-			output_res.parent_game_res = null
-			output_res.quantity = transformed_qty * max(1,current_transformation.ratio)
-			if !is_instance_valid(next_comp) or next_comp.game_res_name != output_res.game_res_name or next_comp.game_res_name == output_res.game_res_name and !next_comp.is_full():
-				qty_chg=get_component_with_relative_pos(1).add_component_at(0, output_res, true)
+			for input_comp in input_comps:
+				var comp = input_comp.game_res
+				if !is_instance_valid(comp) or comp.components.size() > 0:
+					return
+				output_res = comp.duplicate(true)
+				output_res.parent_game_res = null
+				output_res.quantity = transformed_qty * max(1,current_transformation.ratio)
+				if !is_instance_valid(next_comp) or next_comp.game_res_name != output_res.game_res_name or next_comp.game_res_name == output_res.game_res_name and !next_comp.is_full():
+					qty_chg=get_component_with_relative_pos(1).add_component_at(0, output_res, true)
 			
 		else:
 			if is_instance_valid(output_res.parent_game_res):
@@ -151,12 +173,10 @@ func _process_transform(delta : float):
 			
 		if qty_chg < transformed_qty:
 			buffered_time = 0.0
-		if is_instance_valid(comp):
-			comp.quantity -= qty_chg/ current_transformation.ratio
+		for input_comp in input_comps:
+			var comp = input_comp.game_res
+			comp.quantity -= qty_chg* input_comp.ratio / current_transformation.ratio
 		buffered_time -= qty_chg/ max(1,current_transformation.ratio)
-		var energy_comp = get_energy_comp()
-		if is_instance_valid(energy_comp):
-			energy_comp.quantity -= qty_chg * current_transformation.energy_needed
 
 func is_full():
 	return quantity >= max_quantity
@@ -193,6 +213,14 @@ func set_parent_game_res(new_parent_gr: GameRes, pos = -1):
 			components_control.play_leave_anim()
 	else:
 		components_control.play_spawn_anim()
+
+func get_component_with_name(n:String) -> GameRes:
+	for comp in components:
+		if comp.game_res_name == n:
+			return comp
+			
+	return null
+	
 
 func get_components_with_name(n : String) -> Array[GameRes]:
 	var comps : Array[GameRes]= []

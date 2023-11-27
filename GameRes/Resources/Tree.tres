@@ -7,8 +7,8 @@
 
 [sub_resource type="Resource" id="Resource_mg8kw"]
 script = ExtResource("4_jh83l")
+input_res = Array[Resource("res://GameRes/Transformation_res.gd")]([])
 output_res = ExtResource("3_r8h60")
-energy_needed = 0.0
 ratio = 1.0
 duration = 1.52
 

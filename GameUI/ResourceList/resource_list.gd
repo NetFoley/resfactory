@@ -44,7 +44,12 @@ func _on_inventory_changed():
 		var coins = comp.get_components_with_name("Coin")
 		var qty = 0
 		for coin in coins : qty += coin.quantity
-		%MoneyAmount.text = str(qty)
+		var t = create_tween()
+		t.tween_method(set_money_amount, int(%MoneyAmount.text), qty, 0.5)
+#		%MoneyAmount.text = str(qty)
+
+func set_money_amount(value):
+	%MoneyAmount.text = str(value)
 
 func add_res_to_list(res : GameRes):
 	var control = res.get_control()
@@ -123,5 +128,5 @@ func anim_text_to_inventory(text : Texture2D):
 	t.tween_property(spr, "global_position", inv_rect.position + inv_rect.size/2, 1).from(price_rect.position + price_rect.size * randf()).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_IN_OUT)
 	t.tween_callback(func(): spr.queue_free())
 	%TabContainer.get_child(0, true).pivot_offset = %TabContainer.get_child(0, true).size/2
-	t.tween_property(%TabContainer.get_child(0, true), "scale", Vector2(1.05,1.05), 0.03)
+	t.tween_property(%TabContainer.get_child(0, true), "scale", Vector2(1.08,1.08), 0.03).from(Vector2(1,1))
 	t.tween_property(%TabContainer.get_child(0, true), "scale", Vector2(1,1), 0.03)

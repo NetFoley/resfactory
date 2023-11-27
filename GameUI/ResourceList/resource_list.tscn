@@ -139,33 +139,33 @@ alignment = 1
 [node name="TextureRect" type="TextureRect" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
 texture = ExtResource("5_pbtif")
-expand_mode = 2
 stretch_mode = 1
 
 [node name="TextureRect2" type="TextureRect" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
 texture = ExtResource("5_pbtif")
-expand_mode = 2
 stretch_mode = 1
 
 [node name="Label" type="Label" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(55.905, 0)
 layout_mode = 2
 text = "SELL"
-horizontal_alignment = 1
+horizontal_alignment = 2
+vertical_alignment = 1
+clip_text = true
 
 [node name="TextureRect3" type="TextureRect" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
 texture = ExtResource("5_pbtif")
-expand_mode = 2
 stretch_mode = 1
 
 [node name="TextureRect4" type="TextureRect" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
 texture = ExtResource("5_pbtif")
-expand_mode = 2
 stretch_mode = 1
 
 [node name="HSeparator" type="HSeparator" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 5.18)
 layout_mode = 2
 
 [node name="PriceCont" type="HBoxContainer" parent="ListContainer/VBoxContainer/SellContainer/VBoxContainer"]

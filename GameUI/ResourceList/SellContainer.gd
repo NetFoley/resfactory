@@ -4,6 +4,7 @@ func _ready():
 	GAME.dragged_changed.connect(_on_dragged_changed)
 	GAME.res_dragged.connect(_on_res_dragged)
 	_on_dragged_changed(false)
+	mouse_exited.connect(func():modulate = Color(1,1,1))
 	
 func _on_dragged_changed(value):
 	if !value:
@@ -24,7 +25,9 @@ func _drop_data(_at_position, data):
 			GAME.res_bought.emit(coin_res)
 		
 func _can_drop_data(_at_position, data):
-	return data is GameRes
+	var value = data is GameRes
+	modulate = Color(1,1,1) + Color(0.4,0.4,0.4) * int(value)
+	return value
 	
 func _on_res_dragged(_res: GameRes):
 	update_visual()
@@ -34,6 +37,7 @@ func update_visual():
 	if !res is GameRes or res.price <= 0:
 		visible = false
 		return false
+	modulate = Color(1,1,1)
 	%PriceLabel.text = str(res.price * res.quantity)
 	visible = true
 	return true
